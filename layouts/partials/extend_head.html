@@ -1,0 +1,21 @@
+{{- /* Head custom content area start */ -}}
+{{- /* Insert any custom code (web-analytics, resources, etc.) - it will appear in the section of every page. */ -}}
+{{- /* Can be overwritten by partial with the same name in the global layouts. */ -}}
+{{- /* Head custom content area end */ -}}
+
+<head>
+
+    <link href="https://fonts.cdnfonts.com/css/code-new-roman" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.GoogleAnalyticsID}}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', '{{ .Site.Params.GoogleAnalyticsID}}');
+    </script>
+    <!-- End of Global site tag (gtag.js) - Google Analytics -->
+
+
+</head>

@@ -1,0 +1,173 @@
+baseURL: https://jingyiwu-codespace.github.io/
+title: "Jingyi's Blog"
+theme: PaperMod
+disableHLJS: false
+enableInlineShortcodes: true
+enableEmoji: true
+enableRobotsTXT: true
+enableGitInfo: true
+hasCJKLanguage: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+defaultTheme: auto
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+
+pagination:
+  pagerSize: 4
+
+taxonomies:
+  category: categories
+  tag: tags
+
+minify:
+  disableXML: true
+
+services:
+  googleAnalytics:
+    ID: "G-7TPHQR7CHS"
+
+params:
+  description: "Jingyi's personal blog sharing projects, ideas, and more."
+  busuanzi:
+    enable: true
+  assets:
+    disableHLJS: false
+    favicon: "img/magic_rabbit_sixteen_icon.png"
+    favicon16x16: "img/magic_rabbit_sixteen_icon.png"
+    favicon32x32: "img/magic_rabbit_sixteen_icon.png"
+    apple_touch_icon: "img/magic_rabbit_sixteen_icon.png"
+    safari_pinned_tab: "img/magic_rabbit_sixteen_icon.png"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: rose-pine-dawn
+
+languages:
+  zh:
+    languageName: 中文🇨🇳
+    languageCode: zh
+    contentDir: content/Chinese
+    enableRobotsTXT: true
+    menu:
+      main:
+      - identifier: posts
+        name: 博客
+        url: /zh/posts/
+        weight: 4
+      - identifier: search
+        name: 搜索
+        url: /zh/search
+        weight: 20
+      - identifier: tags
+        name: 标签
+        url: /zh/tags/
+        weight: 10
+      - identifier: archives
+        name: 时间线
+        url: /zh/archives/
+        weight: 6
+      - identifier: msg
+        name: 留言板
+        url: /zh/msg
+        weight: 50
+    params:
+      defaultTheme: auto
+      ShowLastMod: true
+      ShowToc: true
+      TocOpen: true
+      summaryLength: 140
+      goatcounter: "jingyiwu-codespace"
+      assets:
+        favicon: "img/magic_rabbit_sixteen_icon.png"
+        text: "happy space"
+      homeInfoParams:
+        enabled: true
+        Title: "Everyday Is Better"
+        Content: ""
+        subtitle: "Jennie Wu"
+        imageUrl: img/cute2.jpg
+        imageWidth: 100
+        imageHeight: 100
+        buttons:
+        - name: 关于
+          url: "/zh/about"
+        - name: 项目
+          url: "/zh/projects"
+        - name: 简历
+          url: "/zh/resume"
+    socialIcons:
+    - name: github
+      url: "https://github.com/JingyiWu-codespace"
+    - name: instagram
+      url: "https://www.instagram.com/2020horticulture/"
+    - name: email
+      url: "w5jingyi@gmail.com"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/jingyiwu1999/"
+  en:
+    languageName: English
+    languageCode: en
+    contentDir: content/English
+    enableRobotsTXT: true
+    menu:
+      main:
+      - identifier: posts
+        name: Blogs
+        url: /en/posts/
+        weight: 4
+      - identifier: search
+        name: Search
+        url: /en/search
+        weight: 20
+      - identifier: tags
+        name: Tags
+        url: /en/tags/
+        weight: 10
+      - identifier: archives
+        name: Timeline
+        url: /en/archives/
+        weight: 6
+    params:
+      defaultTheme: auto
+      summaryLength: 140
+      goatcounter: "jingyiwu-codespace"
+      ShowToc: true
+      TocOpen: true
+      ShowLastMod: true
+      profileMode:
+        enabled: true
+        title: " Everyday Is Better"
+        subtitle: "Jennie Wu"
+        imageUrl: img/cute2.jpg
+        imageWidth: 100
+        imageHeight: 100
+        buttons:
+        - name: About
+          url: "/en/about"
+        - name: Projects
+          url: "/en/projects"
+        - name: Resume
+          url: "/en/resume"
+    socialIcons:
+    - name: github
+      url: "https://github.com/JingyiWu-codespace"
+    - name: instagram
+      url: /
+    - name: email
+      url: "w5jingyi@gmail.com"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/jingyiwu1999/"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

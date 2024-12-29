@@ -1,0 +1,21 @@
+{{- /* Footer custom content area start */ -}}
+{{- /* Insert any custom code web-analytics, resources, etc. here */ -}}
+{{- /* Footer custom content area end */ -}}
+
+<!-- busuanzi -->
+{{ if .Site.Params.busuanzi.enable -}}
+<span class="busuanzi-footer">
+  <span id="busuanzi_container_site_pv">
+    Views: <span id="busuanzi_value_site_pv"></span>
+  </span>
+  <span id="busuanzi_container_site_uv">
+    Visitors: <span id="busuanzi_value_site_uv"></span>
+  </span>
+</span>
+{{- end }}
+
+<!-- busuanzi -->
+{{- if .Site.Params.busuanzi.enable -}}
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+{{- end -}}
