@@ -2,188 +2,188 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yfreetime.com/en/posts/life/</loc>
+    <loc>http://localhost:1313/en/posts/life/</loc>
     <lastmod>2024-12-30T15:30:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yfreetime.com/zh/posts/life/"
+                href="http://localhost:1313/zh/posts/life/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yfreetime.com/en/posts/life/"
+                href="http://localhost:1313/en/posts/life/"
                 />
   </url><url>
-    <loc>https://yfreetime.com/en/posts/tech/</loc>
+    <loc>http://localhost:1313/en/posts/tech/</loc>
     <lastmod>2024-12-30T15:30:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yfreetime.com/zh/posts/tech/"
+                href="http://localhost:1313/zh/posts/tech/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yfreetime.com/en/posts/tech/"
+                href="http://localhost:1313/en/posts/tech/"
                 />
   </url><url>
-    <loc>https://yfreetime.com/en/posts/travel/</loc>
+    <loc>http://localhost:1313/en/posts/travel/</loc>
     <lastmod>2024-12-30T15:30:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yfreetime.com/zh/posts/travel/"
+                href="http://localhost:1313/zh/posts/travel/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yfreetime.com/en/posts/travel/"
+                href="http://localhost:1313/en/posts/travel/"
                 />
   </url><url>
-    <loc>https://yfreetime.com/en/posts/life/embracing-serenity-in-the-storm_1/</loc>
+    <loc>http://localhost:1313/en/posts/life/embracing-serenity-in-the-storm_1/</loc>
     <lastmod>2024-12-30T15:30:16+08:00</lastmod>
   </url><url>
-    <loc>https://yfreetime.com/en/posts/life/embracing-serenity-in-the-storm_2/</loc>
+    <loc>http://localhost:1313/en/posts/life/embracing-serenity-in-the-storm_2/</loc>
     <lastmod>2024-12-30T15:30:16+08:00</lastmod>
   </url><url>
-    <loc>https://yfreetime.com/en/</loc>
+    <loc>http://localhost:1313/en/</loc>
     <lastmod>2024-12-30T15:30:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yfreetime.com/zh/"
+                href="http://localhost:1313/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yfreetime.com/en/"
+                href="http://localhost:1313/en/"
                 />
   </url><url>
-    <loc>https://yfreetime.com/en/tags/vipassana/</loc>
+    <loc>http://localhost:1313/en/tags/vipassana/</loc>
     <lastmod>2024-12-30T15:30:16+08:00</lastmod>
   </url><url>
-    <loc>https://yfreetime.com/en/posts/tech/building-a-personal-website-in-a-social-media-driven-world/</loc>
+    <loc>http://localhost:1313/en/posts/tech/building-a-personal-website-in-a-social-media-driven-world/</loc>
     <lastmod>2024-12-30T15:30:16+08:00</lastmod>
   </url><url>
-    <loc>https://yfreetime.com/en/categories/</loc>
+    <loc>http://localhost:1313/en/categories/</loc>
     <lastmod>2024-12-30T15:30:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yfreetime.com/zh/categories/"
+                href="http://localhost:1313/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yfreetime.com/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
   </url><url>
-    <loc>https://yfreetime.com/en/tags/tech/</loc>
+    <loc>http://localhost:1313/en/tags/tech/</loc>
     <lastmod>2024-12-30T15:30:16+08:00</lastmod>
   </url><url>
-    <loc>https://yfreetime.com/en/categories/tech/</loc>
+    <loc>http://localhost:1313/en/categories/tech/</loc>
     <lastmod>2024-12-30T15:30:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yfreetime.com/zh/categories/tech/"
+                href="http://localhost:1313/zh/categories/tech/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yfreetime.com/en/categories/tech/"
+                href="http://localhost:1313/en/categories/tech/"
                 />
   </url><url>
-    <loc>https://yfreetime.com/en/resume/</loc>
+    <loc>http://localhost:1313/en/resume/</loc>
     <lastmod>2024-12-29T23:11:35+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yfreetime.com/zh/resume/"
+                href="http://localhost:1313/zh/resume/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yfreetime.com/en/resume/"
+                href="http://localhost:1313/en/resume/"
                 />
   </url><url>
-    <loc>https://yfreetime.com/en/about/</loc>
+    <loc>http://localhost:1313/en/about/</loc>
     <lastmod>2024-12-30T15:30:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yfreetime.com/zh/about/"
+                href="http://localhost:1313/zh/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yfreetime.com/en/about/"
+                href="http://localhost:1313/en/about/"
                 />
   </url><url>
-    <loc>https://yfreetime.com/en/posts/</loc>
+    <loc>http://localhost:1313/en/posts/</loc>
     <lastmod>2024-12-29T23:11:35+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yfreetime.com/zh/posts/"
+                href="http://localhost:1313/zh/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yfreetime.com/en/posts/"
+                href="http://localhost:1313/en/posts/"
                 />
   </url><url>
-    <loc>https://yfreetime.com/en/search/</loc>
+    <loc>http://localhost:1313/en/search/</loc>
     <lastmod>2024-12-29T23:11:35+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yfreetime.com/zh/search/"
+                href="http://localhost:1313/zh/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yfreetime.com/en/search/"
+                href="http://localhost:1313/en/search/"
                 />
   </url><url>
-    <loc>https://yfreetime.com/en/archives/</loc>
+    <loc>http://localhost:1313/en/archives/</loc>
     <lastmod>2024-12-29T23:11:35+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yfreetime.com/zh/archives/"
+                href="http://localhost:1313/zh/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yfreetime.com/en/archives/"
+                href="http://localhost:1313/en/archives/"
                 />
   </url><url>
-    <loc>https://yfreetime.com/en/tags/</loc>
+    <loc>http://localhost:1313/en/tags/</loc>
     <lastmod>2024-12-29T23:11:35+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yfreetime.com/zh/tags/"
+                href="http://localhost:1313/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yfreetime.com/en/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
   </url><url>
-    <loc>https://yfreetime.com/en/projects/</loc>
+    <loc>http://localhost:1313/en/projects/</loc>
     <lastmod>2024-12-29T23:11:35+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://yfreetime.com/zh/projects/"
+                href="http://localhost:1313/zh/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yfreetime.com/en/projects/"
+                href="http://localhost:1313/en/projects/"
                 />
   </url>
 </urlset>

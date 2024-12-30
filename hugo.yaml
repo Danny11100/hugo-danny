@@ -61,12 +61,12 @@ languages:
         # - name: Resume
         #   url: "/en/resume"
     socialIcons:
+      - name: email
+        url: "mailto:contact@yfreetime.com"
     # - name: github
     #   url: "https://github.com/JingyiWu-codespace"
     # - name: instagram
     #   url: /
-    - name: email
-      url: "contact@yfreetime.com"
     # - name: linkedin
     #   url: "https://www.linkedin.com/in/jingyiwu1999/"
 
@@ -124,12 +124,12 @@ languages:
         # - name: 简历
         #   url: "/zh/resume"
     socialIcons:
+      - name: email
+        url: "mailto:contact@yfreetime.com"    
     # - name: github
     #   url: "https://github.com/JingyiWu-codespace"
     # - name: instagram
     #   url: "https://www.instagram.com/2020horticulture/"
-    - name: email
-      url: "contact@yfreetime.com"
     # - name: linkedin
     #   url: "https://www.linkedin.com/in/jingyiwu1999/"
 
