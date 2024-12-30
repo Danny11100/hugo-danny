@@ -1,5 +1,5 @@
-baseURL: https://jingyiwu-codespace.github.io/
-title: "Jingyi's Blog"
+baseURL: https://yfreetime.com/
+title: "Freetime" # 默认全局标题，如果没有单独的语言配置则使用
 theme: PaperMod
 disableHLJS: false
 enableInlineShortcodes: true
@@ -14,107 +14,11 @@ defaultTheme: auto
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 
-pagination:
-  pagerSize: 4
-
-taxonomies:
-  category: categories
-  tag: tags
-
-minify:
-  disableXML: true
-
-services:
-  googleAnalytics:
-    ID: "G-7TPHQR7CHS"
-
-params:
-  description: "Jingyi's personal blog sharing projects, ideas, and more."
-  busuanzi:
-    enable: true
-  assets:
-    disableHLJS: false
-    favicon: "img/magic_rabbit_sixteen_icon.png"
-    favicon16x16: "img/magic_rabbit_sixteen_icon.png"
-    favicon32x32: "img/magic_rabbit_sixteen_icon.png"
-    apple_touch_icon: "img/magic_rabbit_sixteen_icon.png"
-    safari_pinned_tab: "img/magic_rabbit_sixteen_icon.png"
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    codeFences: true
-    guessSyntax: true
-    lineNos: false
-    style: rose-pine-dawn
-
 languages:
-  zh:
-    languageName: 中文🇨🇳
-    languageCode: zh
-    contentDir: content/Chinese
-    enableRobotsTXT: true
-    menu:
-      main:
-      - identifier: posts
-        name: 博客
-        url: /zh/posts/
-        weight: 4
-      - identifier: search
-        name: 搜索
-        url: /zh/search
-        weight: 20
-      - identifier: tags
-        name: 标签
-        url: /zh/tags/
-        weight: 10
-      - identifier: archives
-        name: 时间线
-        url: /zh/archives/
-        weight: 6
-      - identifier: msg
-        name: 留言板
-        url: /zh/msg
-        weight: 50
-    params:
-      defaultTheme: auto
-      ShowLastMod: true
-      ShowToc: true
-      TocOpen: true
-      summaryLength: 140
-      goatcounter: "jingyiwu-codespace"
-      assets:
-        favicon: "img/magic_rabbit_sixteen_icon.png"
-        text: "happy space"
-      homeInfoParams:
-        enabled: true
-        Title: "Everyday Is Better"
-        Content: ""
-        subtitle: "Jennie Wu"
-        imageUrl: img/cute2.jpg
-        imageWidth: 100
-        imageHeight: 100
-        buttons:
-        - name: 关于
-          url: "/zh/about"
-        - name: 项目
-          url: "/zh/projects"
-        - name: 简历
-          url: "/zh/resume"
-    socialIcons:
-    - name: github
-      url: "https://github.com/JingyiWu-codespace"
-    - name: instagram
-      url: "https://www.instagram.com/2020horticulture/"
-    - name: email
-      url: "w5jingyi@gmail.com"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/jingyiwu1999/"
   en:
-    languageName: English
+    languageName: EN
     languageCode: en
+    title: "Freetime" # 英文版网站标题
     contentDir: content/English
     enableRobotsTXT: true
     menu:
@@ -122,7 +26,7 @@ languages:
       - identifier: posts
         name: Blogs
         url: /en/posts/
-        weight: 4
+        weight: 10
       - identifier: search
         name: Search
         url: /en/search
@@ -134,7 +38,7 @@ languages:
       - identifier: archives
         name: Timeline
         url: /en/archives/
-        weight: 6
+        weight: 10
     params:
       defaultTheme: auto
       summaryLength: 140
@@ -144,27 +48,128 @@ languages:
       ShowLastMod: true
       profileMode:
         enabled: true
-        title: " Everyday Is Better"
-        subtitle: "Jennie Wu"
-        imageUrl: img/cute2.jpg
+        title: "Stay Hungry, Stay Foolish"
+        subtitle: "Danny Yuan"
+        imageUrl: img/dannylogo.png
         imageWidth: 100
         imageHeight: 100
         buttons:
         - name: About
           url: "/en/about"
-        - name: Projects
-          url: "/en/projects"
-        - name: Resume
-          url: "/en/resume"
+        # - name: Projects
+        #   url: "/en/projects"
+        # - name: Resume
+        #   url: "/en/resume"
     socialIcons:
-    - name: github
-      url: "https://github.com/JingyiWu-codespace"
-    - name: instagram
-      url: /
+    # - name: github
+    #   url: "https://github.com/JingyiWu-codespace"
+    # - name: instagram
+    #   url: /
     - name: email
-      url: "w5jingyi@gmail.com"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/jingyiwu1999/"
+      url: "contact@yfreetime.com"
+    # - name: linkedin
+    #   url: "https://www.linkedin.com/in/jingyiwu1999/"
+
+  zh:
+    languageName: CN
+    languageCode: zh
+    title: "浮生片刻" # 中文版网站标题
+    contentDir: content/Chinese
+    enableRobotsTXT: true
+    menu:
+      main:
+      - identifier: posts
+        name: 博客
+        url: /zh/posts/
+        weight: 10
+      - identifier: search
+        name: 搜索
+        url: /zh/search
+        weight: 20
+      - identifier: tags
+        name: 标签
+        url: /zh/tags/
+        weight: 10
+      - identifier: archives
+        name: 时间线
+        url: /zh/archives/
+        weight: 10
+      # - identifier: msg
+      #   name: 留言板
+      #   url: /zh/msg
+      #   weight: 50
+    params:
+      defaultTheme: auto
+      ShowLastMod: true
+      ShowToc: true
+      TocOpen: true
+      summaryLength: 140
+      goatcounter: "jingyiwu-codespace"
+      assets:
+        favicon: "img/dannylogo.png"
+        text: "happy space"
+      homeInfoParams:
+        enabled: true
+        Title: "Stay Hungry, Stay Foolish"
+        Content: ""
+        subtitle: "Danny Yuan"
+        imageUrl: img/dannylogo.png
+        imageWidth: 100
+        imageHeight: 100
+        buttons:
+        - name: 关于我
+          url: "/zh/about"
+        # - name: 项目
+        #   url: "/zh/projects"
+        # - name: 简历
+        #   url: "/zh/resume"
+    socialIcons:
+    # - name: github
+    #   url: "https://github.com/JingyiWu-codespace"
+    # - name: instagram
+    #   url: "https://www.instagram.com/2020horticulture/"
+    - name: email
+      url: "contact@yfreetime.com"
+    # - name: linkedin
+    #   url: "https://www.linkedin.com/in/jingyiwu1999/"
+
+pagination:
+  pagerSize: 10
+
+taxonomies:
+  category: categories
+  tag: tags
+
+minify:
+  disableXML: true
+
+# 注释掉的服务（未来可能使用）
+# services:
+#   googleAnalytics:
+#     ID: "G-7TPHQR7CHS"
+
+params:
+  description: "Danny's Digital Garden."
+  busuanzi:
+    enable: true
+  assets:
+    disableHLJS: false
+    favicon: "img/dannylogo.png"
+    favicon16x16: "img/dannylogo.png"
+    favicon32x32: "img/dannylogo.png"
+    apple_touch_icon: "img/dannylogo.png"
+    safari_pinned_tab: "img/dannylogo.png"
+  customCSS: ["css/custom.css"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: rose-pine-dawn
 
 outputs:
   home:

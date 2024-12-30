@@ -2,8 +2,10 @@
 
 <article class="post-single">
   <header class="post-header">
+    <!-- 面包屑导航 -->
     {{ partial "breadcrumbs.html" . }}
 
+    <!-- 标题 -->
     <h1 class="post-title entry-hint-parent">
       {{ .Title }}
       {{- if .Draft }}
@@ -15,11 +17,15 @@
       </span>
       {{- end }}
     </h1>
+
+    <!-- 描述 -->
     {{- if .Description }}
     <div class="post-description">
       {{ .Description }}
     </div>
     {{- end }}
+
+    <!-- 元数据 -->
     {{- if not (.Param "hideMeta") }}
     <div class="post-meta">
       {{- partial "post_meta.html" . -}}
@@ -27,24 +33,31 @@
       {{- partial "edit_post.html" . -}}
       {{- partial "post_canonical.html" . -}}
 
-
-      <!-- busuanzi -->
-      {{ if .Site.Params.busuanzi.enable -}}
+      <!-- Busuanzi 统计 -->
+      {{ if .Site.Params.busuanzi.enable }}
       <div class="meta-item">&nbsp·&nbsp
         <span id="busuanzi_container_page_pv">Views:<span id="busuanzi_value_page_pv"></span></span>
       </div>
       {{- end }}
-
-
     </div>
     {{- end }}
+
+    <!-- 分割线 -->
+    <hr class="post-divider">
   </header>
+
+  <!-- 封面 -->
   {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover1.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
+
+  <!-- 目录 -->
   {{- if (.Param "ShowToc") }}
-  {{- partial "toc.html" . }}
+  <div class="post-toc">
+    {{- partial "toc.html" . }}
+  </div>
   {{- end }}
 
+  <!-- 正文内容 -->
   {{- if .Content }}
   <div class="post-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
@@ -53,13 +66,7 @@
   </div>
   {{- end }}
 
-  <!-- {{ if .Store.Get "hasMermaid" }}
-  <script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: true });
-  </script>
-  {{ end }} -->
-
+  <!-- Mermaid 图表支持 -->
   {{ if .Page.Store.Get "hasMermaid" }}
   <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
@@ -68,27 +75,37 @@
       mermaidTheme = "dark";
     }
     mermaid.initialize({ startOnLoad: true, theme: mermaidTheme, });
-
   </script>
   {{ end }}
 
   <footer class="post-footer">
+    <!-- 标签 -->
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
       {{- range ($.GetTerms $tags) }}
       <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
       {{- end }}
     </ul>
-    {{- partial "comments.html" . -}}
+
+    <!-- 评论功能 -->
+    {{ if .Params.comments }}
+    {{ partial "comments.html" . }}
+    {{ end }}
+
+    <!-- 上下篇导航 -->
     {{- if (.Param "ShowPostNavLinks") }}
-    {{- partial "post_nav_links.html" . }}
+    <div class="post-nav-links">
+      {{- partial "post_nav_links.html" . }}
+    </div>
     {{- end }}
+
+    <!-- 分享按钮 -->
     {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
-    {{- partial "share_icons.html" . -}}
+    <div class="post-share-icons">
+      {{- partial "share_icons.html" . -}}
+    </div>
     {{- end }}
-
   </footer>
-
 </article>
 
 {{- end }}{{/* end main */}}

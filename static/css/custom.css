@@ -1,0 +1,230 @@
+/* ================= 全局样式 ================= */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9fafb;
+    color: #333;
+}
+
+/* ================= 导航栏样式 ================= */
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px !important;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.logo span {
+    margin-left: 10px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+.menu li a.active {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* 夜间模式按钮 */
+#theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#theme-toggle svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* 多语言切换 */
+.lang-switch {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.lang-switch li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+/* 移动端汉堡菜单 */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+}
+
+/* ================= 内容区域样式 ================= */
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ================= 响应式布局 ================= */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fff;
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+}
+
+/* ================= 卡片容器整体样式 ================= */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* 卡片之间的间距 */
+    justify-content: center;
+}
+
+/* 单个卡片样式 */
+.card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none; /* 去掉链接的下划线 */
+}
+
+/* 鼠标悬停效果 */
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* 卡片图片样式 */
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 1px solid #e0e0e0; /* 图片和文字分隔的线条 */
+}
+
+/* 卡片内容样式 */
+.card-content {
+    padding: 16px;
+}
+
+/* 卡片标题 */
+.card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+/* 卡片副标题或描述 */
+.card-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* 时间和作者信息 */
+.card-meta {
+    font-size: 0.85rem;
+    color: #999;
+    margin-top: 10px;
+}
+
+/* ================= 卡片响应式调整 ================= */
+@media (max-width: 768px) {
+    .card {
+        max-width: 100%;
+    }
+
+    .card img {
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+/* ================= header和页面对齐修复 ================= */
+/* 确保 header 和 main 内容宽度一致 */
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+/* 调整 main 的宽度和留白 */
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 确保 body 没有额外的滚动条问题 */
+body {
+    margin: 0;
+    padding: 0;
+}
