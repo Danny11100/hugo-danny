@@ -61,8 +61,8 @@ languages:
         # - name: Resume
         #   url: "/en/resume"
     socialIcons:
-      - name: email
-        url: "mailto:contact@yfreetime.com"
+      # - name: email
+      #   url: "mailto:contact@yfreetime.com"
     # - name: github
     #   url: "https://github.com/JingyiWu-codespace"
     # - name: instagram
@@ -124,8 +124,8 @@ languages:
         # - name: 简历
         #   url: "/zh/resume"
     socialIcons:
-      - name: email
-        url: "mailto:contact@yfreetime.com"    
+    #  - name: email
+    #    url: "mailto:contact@yfreetime.com"    
     # - name: github
     #   url: "https://github.com/JingyiWu-codespace"
     # - name: instagram
