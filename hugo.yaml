@@ -11,7 +11,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 defaultTheme: auto
-defaultContentLanguage: en
+defaultContentLanguage: zh
 defaultContentLanguageInSubdir: true
 
 languages:
@@ -144,9 +144,9 @@ minify:
   disableXML: true
 
 # 注释掉的服务（未来可能使用）
-# services:
-#   googleAnalytics:
-#     ID: "G-7TPHQR7CHS"
+services:
+   googleAnalytics:
+   ID: "G-GN3ZFPH678"
 
 params:
   description: "Danny's Digital Garden."
