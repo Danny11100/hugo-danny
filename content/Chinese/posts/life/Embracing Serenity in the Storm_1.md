@@ -1,0 +1,44 @@
+---
+title : '在喧嚣中寻求宁静的艺术：我的内观之旅(1)'
+date : 2024-03-29
+draft : false
+author : "Danny Yuan"
+comments: true #是否展示评论
+showToc: true # 显示目录
+TocOpen: false # 自动展开目录
+hidemeta: false # 是否隐藏文章的元信息，如发布日期、作者等
+##disableShare: true # 底部不显示分享栏
+showbreadcrumbs: true #顶部显示当前路径
+ShowReadingTime: false
+VisitCount: true
+ShowLastMod: true #显示文章更新时间
+summary: "Join me as I recount my transformative ten-day Vipassana experience and draw parallels to the current challenges I face with job applications in Europe. Learn how the lessons from Vipassana can offer clarity and focus during uncertain times."
+
+tags:
+- 内观 
+
+cover:
+    image: "img/temple.png" #图片路径：posts/tech/文章1/picture.png
+    caption: "" #图片底部描述
+    alt: ""
+    relative: false
+---
+今天，我想回忆起一次充满宁静与深思的经历：2017年，我在中国一座宁静的寺庙中参加了为期十天的禅修Vipassana静坐课程。那时，我刚刚开始职业生涯，正面临人生中的诸多深刻问题。如今，这些思考再次浮现，尤其是在我面对来自欧洲各地的工作申请的冷淡回应，以及文化适应的疲惫之际。在这个时刻，我愈加意识到自己迫切需要的是宁静、反思和一种积极的应对人生挑战的方式。Vipassana，再次成为了我的庇护所。
+
+### **在求职市场的波涛中航行**
+
+在追求个人与职业成长的过程中，我发现自己陷入了一种困境。我在欧洲，尤其是德国和荷兰，广泛投递了产品经理岗位的申请。然而，面试机会屈指可数，即便有些面试的机会，签证问题也往往使得这些门槛关上。从公司的角度来看，偏向本地人才也是可以理解的，尤其是对于那些需要深入理解用户行为和偏好的岗位，以便能够打造真正契合的产品功能。
+
+尽管如此，这些挫折并未让我气馁。每一场面试都是一次个人与职业上的锤炼。这份坚持不懈，让我回想起当初在Vipassana中的心境。
+
+### **在喧嚣中寻求宁静的艺术**
+
+Vipassana的本质跨越了国界，全球各地都有不同的理解和诠释。它的核心理念是“超越观察”，但大多数人将其视为通往“洞察”或“明察”的道路——一场内心的探索，而非对外部现实的审视。与冥想的相似之处颇为惊人，二者都成为了集中与宁静的庇护所。我开始视其为“宁静的艺术”。实践Vipassana意味着远离现代数字化世界的喧嚣，进入沉思的状态；在这个世界里，寂静主宰，一切关注都聚焦在呼吸的节奏上，甚至连最短暂的眼神交流都被剔除。它是一种与外部世界的喧嚣断绝联系，深入自我内部的过程。
+
+### **Vipassana的初体验：旅程的开始**
+
+一年后，我身处一家初创公司的动态环境中，尽管竞争逐渐加剧，公司的发展节奏开始放缓。曾经有序的管理逐渐陷入了混乱。作为一名初级产品经理，我有幸了解了CEO的愿景——这些初看起来充满潜力的举措。然而，我不禁开始思考，我们的方向是否真的与用户的需求对接，还是仅仅是高层的主观臆测。在这种困惑与怀疑之间，我决定通过Vipassana寻求答案，并申请了假期。出乎意料的是，CEO送给我一本佛教经文——这是我即将展开内省之旅的象征。
+
+尽管最初心存怀疑——由于他们网站的陈旧与过时——我还是决定踏出舒适区，拥抱这一陌生的体验，驱动我的是一种对改变的渴望，它承诺给我一个逃离日常乏味的契机。
+
+*(待续...)*

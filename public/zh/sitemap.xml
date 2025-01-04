@@ -111,6 +111,48 @@
                 href="http://localhost:1313/zh/about/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh/posts/life/embracing-serenity-in-the-storm_2/</loc>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/life/embracing-serenity-in-the-storm_2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/life/embracing-serenity-in-the-storm_2/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/tags/vipassana/</loc>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/vipassana/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/vipassana/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/tags/%E5%86%85%E8%A7%82/</loc>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/zh/posts/life/embracing-serenity-in-the-storm_1/</loc>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/life/embracing-serenity-in-the-storm_1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/life/embracing-serenity-in-the-storm_1/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh/msg/</loc>
     <lastmod>2024-12-29T23:11:35+08:00</lastmod>
   </url><url>
