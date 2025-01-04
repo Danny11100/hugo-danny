@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tech on 浮生片刻</title>
-    <link>http://localhost:1313/zh/categories/tech/</link>
-    <description>Recent content in Tech on 浮生片刻</description>
+    <title>Crypto on 浮生片刻</title>
+    <link>http://localhost:1313/zh/tags/crypto/</link>
+    <description>Recent content in Crypto on 浮生片刻</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 04 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>合约交易与赌博：有何区别？预测市场和传统金融的比较</title>
       <link>http://localhost:1313/zh/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%8E%E8%B5%8C%E5%8D%9A%E6%9C%89%E4%BD%95%E5%8C%BA%E5%88%AB%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E5%92%8C%E4%BC%A0%E7%BB%9F%E9%87%91%E8%9E%8D%E7%9A%84%E6%AF%94%E8%BE%83-171ea51483288007888ec742b4071076/</link>
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%8E%E8%B5%8C%E5%8D%9A%E6%9C%89%E4%BD%95%E5%8C%BA%E5%88%AB%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E5%92%8C%E4%BC%A0%E7%BB%9F%E9%87%91%E8%9E%8D%E7%9A%84%E6%AF%94%E8%BE%83-171ea51483288007888ec742b4071076/</guid>
       <description>&lt;p&gt;最近我在研究加密货币合约交易时，发现不少人都在问，合约交易是不是和赌博差不多？其实，这个问题值得深思。合约交易的核心是对市场价格波动的预测，而赌博则是对某些不确定事件结果的押注。两者听起来有点相似，但深入了解之后，你会发现它们有着本质的区别。除了合约交易，我还碰到了一些像&lt;strong&gt;Polymarket&lt;/strong&gt;这样的预测市场，感觉它们和合约交易也有些相似。今天我就把这些问题整理一下，聊聊合约交易、赌博、预测市场以及传统金融衍生品的异同。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>建立个人网站：在社交媒体主导的世界中找到自己的数字空间</title>
-      <link>http://localhost:1313/zh/posts/tech/tech_template/</link>
-      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/tech/tech_template/</guid>
-      <description>&lt;p&gt;在一个社交媒体主导、即时满足感盛行的时代，建立个人网站的想法乍一看似乎是数字时代过去遗留的一种陈旧习惯。然而，当我们徜徉在 TikTok、推文和状态更新的短暂信息流中时，一个专属数字空间的吸引力——个人网站——却变得越来越具有吸引力。这篇博客文章将从中国数字环境和全球视角出发，探讨在社交媒体的喧嚣中，创建个人网站的“为什么”、“怎么做”和“内容是什么”。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
