@@ -45,6 +45,7 @@ languages:
       goatcounter: "jingyiwu-codespace"
       ShowToc: true
       TocOpen: true
+      comments: true
       ShowLastMod: true
       profileMode:
         enabled: true
@@ -103,6 +104,7 @@ languages:
       ShowLastMod: true
       ShowToc: true
       TocOpen: true
+      comments: true
       summaryLength: 140
       goatcounter: "jingyiwu-codespace"
       assets:
