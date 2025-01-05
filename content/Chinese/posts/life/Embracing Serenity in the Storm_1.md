@@ -12,7 +12,7 @@ showbreadcrumbs: true #顶部显示当前路径
 ShowReadingTime: false
 VisitCount: true
 ShowLastMod: true #显示文章更新时间
-summary: "Join me as I recount my transformative ten-day Vipassana experience and draw parallels to the current challenges I face with job applications in Europe. Learn how the lessons from Vipassana can offer clarity and focus during uncertain times."
+
 
 tags:
 - 内观 

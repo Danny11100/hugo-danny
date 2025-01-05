@@ -1,3 +1,60 @@
+<!--<script src="https://giscus.app/" data-repo="JingyiWu-codespace/blog_comments" data-repo-id="R_kgDOLPpadg"
+    data-category="Announcements" data-category-id="DIC_kwDOLPpads4CdEvR" data-mapping="pathname" data-strict="0"
+    data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme"
+    data-lang="en" crossorigin="anonymous" async>
+    </script>-->
+
+
+<!-- <div class="giscus">
+
+    <script>
+        function getGiscusTheme() {
+            const preferredTheme = localStorage.getItem("pref-theme");
+            const giscusTheme = preferredTheme == null || preferredTheme == "light" ? "light" : "dark";
+            return giscusTheme;
+        }
+
+        function setGiscusTheme() {
+            function sendMessage(message) {
+                const iframe = document.querySelector('iframe.giscus-frame');
+                if (!iframe) return;
+                iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+            }
+            sendMessage({
+                setConfig: {
+                    theme: getGiscusTheme() == "light" ? "light" : "dark",
+                },
+            });
+        }
+
+        const attrs = {
+            "src": "https://giscus.app/client.js",
+            "data-repo": "JingyiWu-codespace/blog_comments",
+            "data-repo-id": "R_kgDOLPpadg",
+            "data-category": "Announcements",
+            "data-category-id": "DIC_kwDOLPpads4CdEvR",
+            "data-mapping": "pathname",
+            "data-strict": "0",
+            "data-reactions-enabled": "1",
+            "data-emit-metadata": "0",
+            "data-input-position": "bottom",
+            "data-theme": getGiscusTheme(),
+            "data-lang": "en",
+            "crossorigin": "anonymous",
+            "async": ""
+        };
+
+        const giscusScript = document.createElement("script");
+        Object.entries(attrs).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+        document.body.appendChild(giscusScript);
+
+        const toggle = document.querySelector('#theme-toggle');
+        if (toggle) {
+            toggle.addEventListener('click', setGiscusTheme);
+        }
+    </script>
+
+    <noscript>Please enable JavaScript to view the comments</noscript> -->
 <details>
     <summary>View/hide comments</summary>
     <div class="giscus">
@@ -37,10 +94,10 @@
 
             const attrs = {
                 "src": "https://giscus.app/client.js",
-                "data-repo": "Danny11100/hugo-danny",
-                "data-repo-id": "R_kgDONj3SeQ",
+                "data-repo": "JingyiWu-codespace/JingyiWu-codespace.github.io",
+                "data-repo-id": "R_kgDOLEfUzQ",
                 "data-category": "Announcements",
-                "data-category-id": "DIC_kwDONj3Sec4Clt3h",
+                "data-category-id": "DIC_kwDOLEfUzc4CdFiN",
                 "data-mapping": "pathname",
                 "data-strict": "0",
                 "data-reactions-enabled": "1",
@@ -67,3 +124,174 @@
     </div>
 
 </details>
+
+<!--<details class="comments">
+    <summary class="ctr pokey">
+        <strong>View/ Hide comments</strong>
+
+        <div class="giscus-comments">
+            <script{{ if site.Params.Nonces }} nonce="DhcnhD3khTMePgXw" {{ end }}>
+                function getGiscusTheme() {
+                    // 假设localStorage中存储的是用户的偏好主题
+                    const preferredTheme = localStorage.getItem("pref-theme");
+                    // 当偏好主题为light时，返回non-borderlight；当偏好主题为dark时，返回non-borderdark
+                    let giscusTheme;
+                    switch (preferredTheme) {
+                        case "light":
+                            giscusTheme = "no_border_light";
+                            break;
+                        case "dark":
+                            giscusTheme = "noborder_gray";
+                            break;
+                        default:
+                            giscusTheme = "noborder_gray"; // 默认为dark，可根据需要调整
+                    }
+                    return giscusTheme;
+                }
+
+                function setGiscusTheme() {
+                    function sendMessage(message) {
+                        const iframe = document.querySelector('iframe.giscus-frame');
+                        if (!iframe) return;
+                        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+                    }
+                    // 更新sendMessage调用，以确保应用正确的主题
+                    sendMessage({
+                        setConfig: {
+                            theme: getGiscusTheme(),
+                        },
+                    });
+                }
+
+                const attrs = {
+                    "src": "https://giscus.app/client.js",
+                    "data-repo": "JingyiWu-codespace/JingyiWu-codespace.github.io",
+                    "data-repo-id": "R_kgDOLEfUzQ",
+                    "data-category": "Announcements",
+                    "data-category-id": "DIC_kwDOLEfUzc4CdFiN",
+                    "data-mapping": "pathname",
+                    "data-strict": "0",
+                    "data-reactions-enabled": "1",
+                    "data-emit-metadata": "0",
+                    "data-input-position": "bottom",
+                    "data-theme": getGiscusTheme(), // 这里调用getGiscusTheme以设置正确的主题
+                    "data-lang": "en",
+                    "crossorigin": "anonymous",
+                    "async": ""
+                };
+
+                const giscusScript = document.createElement("script");
+                Object.entries(attrs).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+                document.body.appendChild(giscusScript);
+
+                // 监听主题切换按钮（如果存在），以允许用户手动更改主题
+                const toggle = document.querySelector('#theme-toggle');
+                if (toggle) {
+                    toggle.addEventListener('click', setGiscusTheme);
+                }
+            </script>
+
+                <noscript>Please enable JavaScript to view the comments</noscript>
+        </div>
+    </summary>
+</details>-->
+
+<!--
+{{/*
+=== `data-theme` choices ===
+For now, these are just "auto," "light," and "dark"; but, in case you use
+separate CSS files for these (such as for using additional fonts),
+having these variables will allow for that.
+*/}}
+{{- $dataThemeLight := "light" -}}
+{{- $dataThemeDark := "dark" -}}
+{{- $dataThemeAuto := "preferred_color_scheme" -}}
+
+<details class="comments nScrHidden" id="data-comments" data-pagefind-ignore>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-eval'; object-src 'none'; ">
+    <summary data-pagefind-ignore aria-label="Toggle for viewing or hiding comments">
+        <span id="legend-comments" class="legend">View comments</span>
+    </summary>
+    <div class="giscus-comments" id="giscus-comments">
+        <script>
+            function getGiscusTheme() {
+                // 假设localStorage中存储的是用户的偏好主题
+                const preferredTheme = localStorage.getItem("pref-theme");
+                // 当偏好主题为light时，返回non-borderlight；当偏好主题为dark时，返回non-borderdark
+                let giscusTheme;
+                switch (preferredTheme) {
+                    case "light":
+                        giscusTheme = "no_border_light";
+                        break;
+                    case "dark":
+                        giscusTheme = "noborder_gray";
+                        break;
+                    default:
+                        giscusTheme = "noborder_gray"; // 默认为dark，可根据需要调整
+                }
+                return giscusTheme;
+            }
+
+            function setGiscusTheme() {
+                function sendMessage(message) {
+                    const iframe = document.querySelector('iframe.giscus-frame');
+                    if (!iframe) return;
+                    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+                }
+                sendMessage({
+                    setConfig: {
+                        theme: getGiscusTheme(),
+                    },
+                });
+            }
+
+            document.addEventListener('DOMContentLoaded', function () {
+                const giscusAttributes = {
+                    "src": "https://giscus.app/client.js",
+                    "data-repo": "JingyiWu-codespace/blog_comments",
+                    "data-repo-id": "R_kgDOLPpadg",
+                    "data-category": "Announcements",
+                    "data-category-id": "DIC_kwDOLPpads4CdEvR",
+                    "data-mapping": "pathname",
+                    "data-strict": "1",
+                    "data-reactions-enabled": "1",
+                    "data-emit-metadata": "0",
+                    "data-input-position": "bottom",
+                    "data-theme": getGiscusTheme(),
+                    "data-lang": "en",
+                    "crossorigin": "anonymous",
+                    "data-loading": "lazy",
+                    "async": "",
+                };
+
+                // Dynamically create script tag
+                const giscusScript = document.createElement("script");
+                Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+                let divToAdd = document.querySelector('.giscus-comments');
+
+                // Inject script when user clicks the `details` element
+                let detailsGiscus = document.getElementById('data-comments');
+                let commentsLegend = document.getElementById('legend-comments');
+                detailsGiscus.addEventListener("toggle", toggleDetails);
+                function toggleDetails() {
+                    divToAdd.appendChild(giscusScript);
+                    if (commentsLegend.innerHTML === 'View comments') {
+                        commentsLegend.innerHTML = 'Hide comments';
+                    } else {
+                        commentsLegend.innerHTML = 'View comments';
+                    }
+                }
+                // Update giscus theme when theme switcher is clicked
+                const buttonLight = document.getElementById("lightMode");
+                const buttonAuto = document.getElementById("autoMode");
+                const buttonDark = document.getElementById("darkMode");
+                buttonLight.addEventListener('click', setGiscusTheme);
+                buttonAuto.addEventListener('click', setGiscusTheme);
+                buttonDark.addEventListener('click', setGiscusTheme);
+            });
+        </script>
+    </div>
+</details>
+<noscript>
+    <p class="ctr legal">Commenting feature requires activation of JavaScript.</p>
+</noscript>-->
