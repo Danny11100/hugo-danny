@@ -27,10 +27,10 @@ languages:
         name: Blogs
         url: /en/posts/
         weight: 10
-      - identifier: search
-        name: Search
-        url: /en/search
-        weight: 20
+      # - identifier: search
+      #   name: Search
+      #   url: /en/search
+      #   weight: 20
       - identifier: tags
         name: Tags
         url: /en/tags/
@@ -83,10 +83,10 @@ languages:
         name: 博客
         url: /zh/posts/
         weight: 10
-      - identifier: search
-        name: 搜索
-        url: /zh/search
-        weight: 20
+      # - identifier: search
+      #   name: 搜索
+      #   url: /zh/search
+      #   weight: 20
       - identifier: tags
         name: 标签
         url: /zh/tags/
