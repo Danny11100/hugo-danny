@@ -35,8 +35,11 @@ code {
     display: none;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     gap: 4px;
-    padding: 6px;
+    width: 40px;
+    height: 32px;
+    padding: 6px 8px;
     border: 1px solid var(--border);
     border-radius: 6px;
     background: transparent;
@@ -46,9 +49,10 @@ code {
 
 .hamburger-menu span {
     display: block;
-    width: 20px;
+    width: 18px;
     height: 2px;
     background: currentColor;
+    border-radius: 2px;
 }
 
 .entry-cover1 {

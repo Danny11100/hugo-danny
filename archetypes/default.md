@@ -19,6 +19,7 @@ keywords:
 description: ""
 weight:
 slug: ""
+aliases: []
 ShowWordCounts: true
 draft: false # 是否为草稿
 comments: true # 本页面是否显示评论
@@ -36,6 +37,5 @@ cover:
     alt: ""
     relative: false
 ---
-
 
 

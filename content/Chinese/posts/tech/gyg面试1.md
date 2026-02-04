@@ -1,6 +1,10 @@
 ---
 title : '欧洲产品求职之Getyourguide面试复盘'
 date : 2025-01-11
+slug: gyg-interview-1
+aliases:
+  - /zh/posts/tech/gyg%E9%9D%A2%E8%AF%951/
+  - /zh/posts/tech/gyg面试1/
 draft : false
 author : "Danny Yuan"
 comments: true #是否展示评论
