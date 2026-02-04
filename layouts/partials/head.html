@@ -31,7 +31,7 @@
         {{- end -}}
     {{- end -}}
 {{- end -}}
-{{- $description = $description | plainify | htmlUnescape | strings.TrimSpace -}}
+{{- $description = $description | plainify | htmlUnescape | trim " \n\t" -}}
 {{- if gt (len $description) 160 -}}
     {{- $description = $description | truncate 160 -}}
 {{- end -}}

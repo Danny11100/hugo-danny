@@ -1,6 +1,6 @@
 {{- $publisherType := (site.Params.schema.publisherType | default "Organization") | title -}}
 {{- $logo := site.Params.assets.favicon | default "favicon.ico" | absURL -}}
-{{- $siteDescription := site.Params.description | plainify | strings.TrimSpace -}}
+{{- $siteDescription := site.Params.description | plainify | trim " \n\t" -}}
 
 {{- if .IsHome -}}
   {{- $org := dict
@@ -46,7 +46,7 @@
   {{- if .IsPage -}}
     {{- $title := .Title | plainify -}}
     {{- $description := .Description | default .Summary -}}
-    {{- $description = $description | plainify | htmlUnescape | strings.TrimSpace -}}
+    {{- $description = $description | plainify | htmlUnescape | trim " \n\t" -}}
     {{- if gt (len $description) 200 -}}
       {{- $description = $description | truncate 200 -}}
     {{- end -}}

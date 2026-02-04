@@ -40,7 +40,7 @@
     {{- end -}}
   {{- end -}}
 {{- end -}}
-{{- $twDescription = $twDescription | plainify | htmlUnescape | strings.TrimSpace -}}
+{{- $twDescription = $twDescription | plainify | htmlUnescape | trim " \n\t" -}}
 {{- if gt (len $twDescription) 200 -}}
   {{- $twDescription = $twDescription | truncate 200 -}}
 {{- end -}}
@@ -56,7 +56,7 @@
 {{- end -}}
 {{- with $twitterSite }}
   {{- $content := . -}}
-  {{- if not (strings.HasPrefix . "@") -}}
+  {{- if not (hasPrefix . "@") -}}
     {{- $content = printf "@%v" $twitterSite -}}
   {{- end -}}
 <meta name="twitter:site" content="{{ $content }}"/>

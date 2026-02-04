@@ -11,7 +11,7 @@
     {{- end -}}
   {{- end -}}
 {{- end -}}
-{{- $ogDescription = $ogDescription | plainify | htmlUnescape | strings.TrimSpace -}}
+{{- $ogDescription = $ogDescription | plainify | htmlUnescape | trim " \n\t" -}}
 {{- if gt (len $ogDescription) 160 -}}
   {{- $ogDescription = $ogDescription | truncate 160 -}}
 {{- end -}}

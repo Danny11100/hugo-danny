@@ -7,14 +7,14 @@
 {{- $width := "" -}}
 {{- $height := "" -}}
 
-{{- $isRemote := or (strings.HasPrefix $src "http://") (strings.HasPrefix $src "https://") -}}
+{{- $isRemote := or (hasPrefix $src "http://") (hasPrefix $src "https://") -}}
 {{- if not $isRemote -}}
   {{- $pageResource := .Page.Resources.GetMatch (printf "*%s*" (path.Base $src)) -}}
   {{- if $pageResource -}}
     {{- $width = $pageResource.Width -}}
     {{- $height = $pageResource.Height -}}
   {{- else -}}
-    {{- $localPath := printf "static/%s" (strings.TrimPrefix "/" $src) -}}
+    {{- $localPath := printf "static/%s" (replaceRE "^/" "" $src) -}}
     {{- if (fileExists $localPath) -}}
       {{- with (imageConfig $localPath) -}}
         {{- $width = .Width -}}
