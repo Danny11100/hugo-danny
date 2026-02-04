@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<meta name="robots" content="noindex, nofollow">
+
+
+<title>
+    
+        用 Codex把个人网站升级：排版、SEO、Cloudflare 缓存与公众号同步 | 一石半会儿
+    
+</title>
+
+<meta name="description" content="
+	">
+
+<meta name="keywords" content="Hugo, Cloudflare Pages, 微信公众号, 静态博客">
+<meta name="author" content="Danny Yuan">
+
+
+<link rel="canonical" href="http://localhost:1313/zh/posts/tech/hugo-refresh-notion-style/">
+
+<meta property="og:title" content="用 Codex把个人网站升级：排版、SEO、Cloudflare 缓存与公众号同步" />
+<meta property="og:description" content="
+	" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/zh/posts/tech/hugo-refresh-notion-style/" />
+<meta property="og:site_name" content="一石半会儿" />
+<meta property="og:locale" content="zh" />
+<meta property="og:locale:alternate" content="zh" /><meta property="og:image" content="http://localhost:1313/img/dannylogo.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2026-02-04T00:00:00+00:00" />
+<meta property="article:modified_time" content="2026-02-04T00:00:00+00:00" /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://localhost:1313/img/dannylogo.png"/><meta name="twitter:title" content="用 Codex把个人网站升级：排版、SEO、Cloudflare 缓存与公众号同步"/>
+<meta name="twitter:description" content="
+	"/>
+<script type="application/ld+json">"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"http://localhost:1313/zh/\",\"name\":\"一石半会儿\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"http://localhost:1313/zh/posts/\",\"name\":\"📝写点什么\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"http://localhost:1313/zh/posts/tech/\",\"name\":\"💻 科技\",\"position\":3},{\"@type\":\"ListItem\",\"item\":\"http://localhost:1313/zh/posts/tech/hugo-refresh-notion-style/\",\"name\":\"用 Codex把个人网站升级：排版、SEO、Cloudflare 缓存与公众号同步\",\"position\":4}]}"</script><script type="application/ld+json">"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"articleSection\":\"posts\",\"author\":{\"@type\":\"Person\",\"name\":\"Danny Yuan\"},\"dateModified\":\"2026-02-04T00:00:00+00:00\",\"datePublished\":\"2026-02-04T00:00:00+00:00\",\"description\":\"\\n\\t\",\"headline\":\"用 Codex把个人网站升级：排版、SEO、Cloudflare 缓存与公众号同步\",\"image\":[\"http://localhost:1313/img/dannylogo.png\"],\"inLanguage\":\"zh\",\"keywords\":[\"Hugo\",\"Cloudflare Pages\",\"微信公众号\",\"静态博客\"],\"mainEntityOfPage\":{\"@id\":\"http://localhost:1313/zh/posts/tech/hugo-refresh-notion-style/\",\"@type\":\"WebPage\"},\"name\":\"用 Codex把个人网站升级：排版、SEO、Cloudflare 缓存与公众号同步\",\"publisher\":{\"@type\":\"Person\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"http://localhost:1313/img/dannylogo.png\"},\"name\":\"一石半会儿\"},\"wordCount\":1868}"</script>
+
+
+
+
+
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.32b6f8a4bc4b29e790556ac772f0df3adbd7de536f46da19587be1325c18072f.css" integrity="sha256-Mrb4pLxLKeeQVWrHcvDfOtvX3lNvRtoZWHvhMlwYBy8=" rel="preload stylesheet" as="style">
+
+
+
+
+<link rel="icon" href="http://localhost:1313/img/dannylogo.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/img/dannylogo.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/img/dannylogo.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/img/dannylogo.png">
+<link rel="mask-icon" href="http://localhost:1313/img/dannylogo.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+
+
+
+<link rel="alternate" hreflang="zh" href="http://localhost:1313/zh/posts/tech/hugo-refresh-notion-style/">
+<link rel="alternate" hreflang="x-default" href="http://localhost:1313/zh/">
+
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+</noscript>
+<link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+<link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+
+<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/code-new-roman">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap">
+
+
+</head><body id="top">
+
+
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark');
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+</script>
+
+
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            
+            
+            
+            <a href="http://localhost:1313/zh/" accesskey="h" title="一石半会儿 (Alt + H)">
+                
+                <span>一石半会儿</span>
+            </a>
+            
+            <div class="logo-switches">
+                
+                
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" type="button">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                
+
+                
+                
+                
+                <ul class="lang-switch">
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="http://localhost:1313/en/" title="EN" aria-label="EN">
+                            EN
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+                
+            </div>
+        </div>
+        
+        <ul id="menu" class="menu">
+            
+            <li>
+                <a href="http://localhost:1313/zh/posts/" title="博客">
+                    <span >
+                        博客
+                    </span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="http://localhost:1313/zh/archives/" title="时间线">
+                    <span >
+                        时间线
+                    </span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="http://localhost:1313/zh/tags/" title="标签">
+                    <span >
+                        标签
+                    </span>
+                </a>
+            </li>
+            
+        </ul>
+
+        
+        <button id="menu-toggle" class="hamburger-menu" type="button" aria-controls="menu" aria-expanded="false" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    
+
+    
+    <h1 class="post-title entry-hint-parent">
+      用 Codex把个人网站升级：排版、SEO、Cloudflare 缓存与公众号同步
+    </h1>
+
+    
+    <div class="post-description">
+      把 Hugo 博客从样式到部署全链路梳理：Notion/Substack 风格排版、TOC 侧边栏、SEO、CSS 自动换新与公众号文章批量导入。
+    </div>
+
+    
+    <div class="post-meta"><span title='2026-02-04 00:00:00 +0000 UTC'>二月 4, 2026</span>&nbsp;·&nbsp;4 分钟&nbsp;·&nbsp;Danny Yuan
+
+      
+      <div class="meta-item">&nbsp·&nbsp
+        <span id="busuanzi_container_page_pv">Views:<span id="busuanzi_value_page_pv"></span></span>
+      </div>
+    </div>
+
+    
+    <hr class="post-divider">
+  </header>
+
+   
+
+  
+  <div class="post-toc"><div class="toc">
+        <details  open>
+            <summary accesskey="c" title="(Alt + C)">
+                <span class="details">目录</span>
+            </summary>
+
+            <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#目标">目标</a></li>
+    <li><a href="#第一阶段本地能跑起来修构建与兼容">第一阶段：本地能跑起来（修构建与兼容）</a></li>
+    <li><a href="#第二阶段ui-与阅读体验notionsubstack-风">第二阶段：UI 与阅读体验（Notion/Substack 风）</a></li>
+    <li><a href="#第三阶段目录toc侧边栏化">第三阶段：目录（TOC）侧边栏化</a></li>
+    <li><a href="#第四阶段seo-与结构能被搜索引擎正确理解">第四阶段：SEO 与结构（能被搜索引擎正确理解）</a></li>
+    <li><a href="#第五阶段部署与缓存cloudflare-pages--自定义域名">第五阶段：部署与缓存（Cloudflare Pages + 自定义域名）</a></li>
+    <li><a href="#第六阶段url-优雅化slug--aliases">第六阶段：URL 优雅化（slug + aliases）</a></li>
+    <li><a href="#第七阶段公众号文章批量导入-hugo">第七阶段：公众号文章批量导入 Hugo</a></li>
+    <li><a href="#今日成果清单">今日成果清单</a></li>
+  </ul>
+</nav>
+            </div>
+        </details>
+    </div>
+
+  </div>
+
+  
+  <div class="post-content"><p>个人网站已经很久没更新了。我花了半天把它从“勉强可用”打磨到“我愿意长期写”的状态：排版接近 Notion/Substack、目录侧边栏更好用、SEO 和结构更完整、部署不再被缓存折磨，并且把公众号文章批量同步回个人网站。</p>
+<p>下面把今天的关键动作整理成一份可复用的记录，给未来的自己，也给正在折腾的你。</p>
+<h2 id="目标">目标<a hidden class="anchor" aria-hidden="true" href="#目标">#</a></h2>
+<ol>
+<li><strong>写作体验与阅读体验</strong>：字体、字号、行距、留白更舒服，尽量接近 Notion/Substack。</li>
+<li><strong>目录（TOC）可用</strong>：不占正文宽度，桌面端固定在右侧；移动端隐藏；没有标题时不显示空目录。</li>
+<li><strong>部署稳定可控</strong>：本地预览 OK，线上发布可预期；样式更新不再“看脸”。</li>
+<li><strong>内容同步高效</strong>：从公众号选定时间区间批量导入 Hugo，图片本地化，避免外链失效。</li>
+</ol>
+<h2 id="第一阶段本地能跑起来修构建与兼容">第一阶段：本地能跑起来（修构建与兼容）<a hidden class="anchor" aria-hidden="true" href="#第一阶段本地能跑起来修构建与兼容">#</a></h2>
+<p>先把 “<code>hugo server</code> 一跑就报错” 的问题清掉，保证本地是可预览、可迭代的。</p>
+<p>关键点是：<strong>本地 Hugo 版本与 Cloudflare 构建环境可能不同</strong>。一旦模板里用了某些新函数，线上就会直接构建失败。</p>
+<p>我做了两件事：</p>
+<ol>
+<li>让模板尽量兼容不同版本 Hugo（避免依赖太新的函数）。</li>
+<li>Cloudflare Pages 明确指定 <code>HUGO_VERSION</code>（和本地一致），减少环境漂移。</li>
+</ol>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image.png" alt="image.png" width="1476" height="1256" />
+</p>
+<h2 id="第二阶段ui-与阅读体验notionsubstack-风">第二阶段：UI 与阅读体验（Notion/Substack 风）<a hidden class="anchor" aria-hidden="true" href="#第二阶段ui-与阅读体验notionsubstack-风">#</a></h2>
+<p>这部分主要是 CSS 与布局微调，目标很简单：<strong>读起来像文章，而不是像网页</strong>。</p>
+<p>今天做的比较显著的点：</p>
+<ul>
+<li><strong>中英文字体与排版统一</strong>：调整正文基准字号、行高、标题层级间距，让中英文都不“紧”。</li>
+<li><strong>图片体验</strong>：图片上下留白更舒展，统一轻圆角；封面图与正文间距也单独处理（很多主题封面不走 <code>.post-content</code>，需要额外规则）。</li>
+<li><strong>移动端导航按钮修复</strong>：把异常的“横向长条”按钮改回标准的三横汉堡（纵向堆叠），并统一尺寸与对齐。</li>
+</ul>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-1.png" alt="image.png" width="2412" height="828" />
+</p>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-2.png" alt="image.png" width="1908" height="2160" />
+</p>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-3.png" alt="image.png" width="1532" height="1546" />
+</p>
+<h2 id="第三阶段目录toc侧边栏化">第三阶段：目录（TOC）侧边栏化<a hidden class="anchor" aria-hidden="true" href="#第三阶段目录toc侧边栏化">#</a></h2>
+<p>目录从“占正文空间的大块组件”改成“右侧悬浮组件”后，阅读体验明显提升。</p>
+<p>做法：</p>
+<ol>
+<li><strong>桌面端</strong>：右侧固定（不挤压正文），默认展开。</li>
+<li><strong>移动端</strong>：隐藏目录（信息密度太高，反而影响阅读）。</li>
+<li><strong>空目录不渲染</strong>：当文章没有有效标题（或 TableOfContents 为空）时，不显示 TOC 外框，避免出现“只有一个目录标题的空盒子”。</li>
+</ol>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-4.png" alt="image.png" width="1908" height="2160" />
+</p>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-5.png" alt="image.png" width="1602" height="1220" />
+</p>
+<h2 id="第四阶段seo-与结构能被搜索引擎正确理解">第四阶段：SEO 与结构（能被搜索引擎正确理解）<a hidden class="anchor" aria-hidden="true" href="#第四阶段seo-与结构能被搜索引擎正确理解">#</a></h2>
+<p>静态站的 SEO 不是玄学，核心是把结构化信息补齐。</p>
+<p>今天补齐了几类常见的基础项：</p>
+<ol>
+<li><code>title / description / canonical</code></li>
+<li>OpenGraph、Twitter Cards</li>
+<li>JSON-LD Schema（文章、面包屑等）</li>
+<li>robots 策略（生产环境允许索引，非生产环境 noindex）</li>
+</ol>
+<h2 id="第五阶段部署与缓存cloudflare-pages--自定义域名">第五阶段：部署与缓存（Cloudflare Pages + 自定义域名）<a hidden class="anchor" aria-hidden="true" href="#第五阶段部署与缓存cloudflare-pages--自定义域名">#</a></h2>
+<p>今天最“玄学”的部分，其实是缓存：<strong>pages.dev 已经更新，但自定义域名还是旧样式</strong>。</p>
+<p>解决思路是两步：</p>
+<ul>
+<li><strong>确认源站是否更新</strong>：先看 <code>*.pages.dev</code>，如果这里是新版本，说明构建没问题。</li>
+<li><strong>处理自定义域名缓存</strong>：Cloudflare 后台 Purge Cache（清缓存）；更关键的是给 CSS 做“自动换新”。</li>
+</ul>
+<p>我最后采用的是 <strong>CSS 指纹（fingerprint）</strong> 方案：每次构建生成带 hash 的 CSS 文件名，HTML 引用的路径也会变化，这样 CDN 不可能继续命中旧缓存。</p>
+<p>一句话总结：<strong>不要和缓存讲道理，让资源 URL 变了，它就必须更新。</strong></p>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-6.png" alt="image.png" width="1908" height="2160" />
+</p>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-7.png" alt="image.png" width="1908" height="2160" />
+</p>
+<h2 id="第六阶段url-优雅化slug--aliases">第六阶段：URL 优雅化（slug + aliases）<a hidden class="anchor" aria-hidden="true" href="#第六阶段url-优雅化slug--aliases">#</a></h2>
+<p>中文路径在 URL 里会被编码（例如 <code>%E9%9D%A2%E8%AF%95</code>），不影响功能，但不够优雅，也不利于传播。</p>
+<p>我采用的做法是：</p>
+<ol>
+<li>新文章统一设置 <code>slug</code>（用英文短链）。</li>
+<li>旧链接用 <code>aliases</code> 保留跳转，兼容历史传播。</li>
+</ol>
+<p>示例（概念）：</p>
+<div class="highlight"><pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#d7827e">slug</span><span style="color:#797593">:</span> <span style="color:#ea9d34">gyg-interview-1</span>
+</span></span><span style="display:flex;"><span><span style="color:#d7827e">aliases</span><span style="color:#797593">:</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#ea9d34">/zh/posts/tech/gyg%E9%9D%A2%E8%AF%951/</span>
+</span></span></code></pre></div><p>这样新链接更干净，旧链接也不会 404。</p>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-8.png" alt="image.png" width="1908" height="2160" />
+</p>
+<h2 id="第七阶段公众号文章批量导入-hugo">第七阶段：公众号文章批量导入 Hugo<a hidden class="anchor" aria-hidden="true" href="#第七阶段公众号文章批量导入-hugo">#</a></h2>
+<p>这是我今天最想解决的问题：公众号写了不少，但个人站一直缺更新。</p>
+<p>我做了一个导入流程：</p>
+<ol>
+<li>公众号里选定时间区间的文章链接列表。</li>
+<li>本地脚本批量抓取正文，写入 <code>content/Chinese/posts/...</code>。</li>
+<li>自动把公众号封面设置为 Hugo <code>cover</code>。</li>
+<li>图片下载到本地 <code>static/wechat/&lt;slug&gt;/</code>，把正文中的外链替换成本地路径，避免“图片来自微信公众平台，未经允许不可引用”。</li>
+<li>导入后做去重：删掉第一次未下载图片的版本，只保留图片本地化的版本。</li>
+</ol>
+<p>这个流程的好处是：以后公众号更新，只要把链接丢进列表，就能一键同步到个人站。</p>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-9.png" alt="image.png" width="1908" height="2160" />
+</p>
+<h2 id="今日成果清单">今日成果清单<a hidden class="anchor" aria-hidden="true" href="#今日成果清单">#</a></h2>
+<ol>
+<li>本地可稳定预览与构建</li>
+<li>UI 排版更接近 Notion/Substack</li>
+<li>TOC 右侧悬浮 + 移动端隐藏 + 空目录不显示</li>
+<li>解决 Cloudflare 自定义域名缓存导致的“线上旧样式”</li>
+<li>CSS 自动换新（fingerprint）</li>
+<li>slug + aliases 优雅链接并兼容历史 URL</li>
+<li>公众号文章批量导入 + 图片本地化 + 去重 + 分类整理</li>
+</ol>
+<p>全程都是自然语言和 codex 进行交互，只提出问题等 review，一句代码没写。</p>
+<p>欢迎访问个人网站：<a href="https://yfreetime.com/">https://yfreetime.com/</a> （不需要担心各种奇葩的审核红线了）</p>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-10.png" alt="image.png" width="692" height="1552" />
+</p>
+
+
+  </div>
+
+  
+  
+
+  <footer class="post-footer">
+    
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/zh/tags/hugo/">Hugo</a></li>
+      <li><a href="http://localhost:1313/zh/tags/cloudflare/">Cloudflare</a></li>
+      <li><a href="http://localhost:1313/zh/tags/wechat/">Wechat</a></li>
+      <li><a href="http://localhost:1313/zh/tags/seo/">Seo</a></li>
+    </ul>
+
+    
+
+    
+
+    
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>
+        &copy;
+        2026
+        <a href="https://yfreetime.com/" rel="noopener noreferrer" target="_blank">Danny's Blog</a>
+<span class="busuanzi-footer">
+  <span id="busuanzi_container_site_pv">
+    Views: <span id="busuanzi_value_site_pv"></span>
+  </span>
+  <span id="busuanzi_container_site_uv">
+    Visitors: <span id="busuanzi_value_site_uv"></span>
+  </span>
+</span>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    </span>
+    
+
+
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    const menuToggle = document.getElementById('menu-toggle');
+    if (menu && menuToggle) {
+        menuToggle.addEventListener('click', () => {
+            const isOpen = menu.classList.toggle('open');
+            menuToggle.setAttribute('aria-expanded', String(isOpen));
+        });
+        menu.querySelectorAll('a').forEach((link) => {
+            link.addEventListener('click', () => {
+                if (menu.classList.contains('open')) {
+                    menu.classList.remove('open');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

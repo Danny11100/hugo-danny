@@ -15,6 +15,13 @@
     <webMaster>contact@yfreetime.com (Danny Yuan)</webMaster>
     <atom:link href="http://localhost:1313/zh/posts/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>用 Codex把个人网站升级：排版、SEO、Cloudflare 缓存与公众号同步</title>
+      <link>http://localhost:1313/zh/posts/tech/hugo-refresh-notion-style/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/zh/posts/tech/hugo-refresh-notion-style/</guid>
+      <description>把 Hugo 博客从样式到部署全链路梳理：Notion/Substack 风格排版、TOC 侧边栏、SEO、CSS 自动换新与公众号文章批量导入。</description>
+    </item>
+    <item>
       <title>从注意力模型想到的信息噪音</title>
       <link>http://localhost:1313/zh/posts/tech/wx-20260130-80844f/</link>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>

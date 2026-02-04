@@ -41,11 +41,30 @@
                 href="http://localhost:1313/zh/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/categories/life/</loc>
-    <lastmod>2026-02-04T23:52:57+08:00</lastmod>
+    <loc>http://localhost:1313/zh/tags/cloudflare/</loc>
+    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/zh/posts/life/wx-20260202-ce8791/</loc>
+    <loc>http://localhost:1313/zh/tags/hugo/</loc>
+    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/zh/tags/seo/</loc>
+    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/zh/categories/tech/</loc>
     <lastmod>2026-02-04T23:52:57+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/tech/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/categories/tech/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/tags/wechat/</loc>
+    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/zh/</loc>
     <lastmod>2026-02-04T23:52:57+08:00</lastmod>
@@ -60,21 +79,17 @@
                 href="http://localhost:1313/zh/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/posts/life/wx-20260131-158b99/</loc>
+    <loc>http://localhost:1313/zh/posts/tech/hugo-refresh-notion-style/</loc>
+    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/zh/categories/life/</loc>
     <lastmod>2026-02-04T23:52:57+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/zh/categories/tech/</loc>
+    <loc>http://localhost:1313/zh/posts/life/wx-20260202-ce8791/</loc>
     <lastmod>2026-02-04T23:52:57+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/categories/tech/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/zh/categories/tech/"
-                />
+  </url><url>
+    <loc>http://localhost:1313/zh/posts/life/wx-20260131-158b99/</loc>
+    <lastmod>2026-02-04T23:52:57+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/zh/posts/tech/wx-20260130-80844f/</loc>
     <lastmod>2026-02-04T23:52:57+08:00</lastmod>

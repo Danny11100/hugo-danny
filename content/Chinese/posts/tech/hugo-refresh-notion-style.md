@@ -1,0 +1,163 @@
+---
+title: "用 Codex把个人网站升级：排版、SEO、Cloudflare 缓存与公众号同步"
+date: 2026-02-04
+lastmod: 2026-02-04
+draft: false
+author: "Danny Yuan"
+categories:
+  - tech
+tags:
+  - hugo
+  - cloudflare
+  - wechat
+  - seo
+keywords:
+  - Hugo
+  - Cloudflare Pages
+  - 微信公众号
+  - 静态博客
+description: "把 Hugo 博客从样式到部署全链路梳理：Notion/Substack 风格排版、TOC 侧边栏、SEO、CSS 自动换新与公众号文章批量导入。"
+slug: hugo-refresh-notion-style
+comments: true
+ShowToc: true
+ShowReadingTime: true
+ShowWordCounts: true
+ShowPageViews: true
+ShowLastMod: true
+---
+
+个人网站已经很久没更新了。我花了半天把它从“勉强可用”打磨到“我愿意长期写”的状态：排版接近 Notion/Substack、目录侧边栏更好用、SEO 和结构更完整、部署不再被缓存折磨，并且把公众号文章批量同步回个人网站。
+
+下面把今天的关键动作整理成一份可复用的记录，给未来的自己，也给正在折腾的你。
+
+## 目标
+
+1. **写作体验与阅读体验**：字体、字号、行距、留白更舒服，尽量接近 Notion/Substack。
+2. **目录（TOC）可用**：不占正文宽度，桌面端固定在右侧；移动端隐藏；没有标题时不显示空目录。
+3. **部署稳定可控**：本地预览 OK，线上发布可预期；样式更新不再“看脸”。
+4. **内容同步高效**：从公众号选定时间区间批量导入 Hugo，图片本地化，避免外链失效。
+
+## 第一阶段：本地能跑起来（修构建与兼容）
+
+先把 “`hugo server` 一跑就报错” 的问题清掉，保证本地是可预览、可迭代的。
+
+关键点是：**本地 Hugo 版本与 Cloudflare 构建环境可能不同**。一旦模板里用了某些新函数，线上就会直接构建失败。
+
+我做了两件事：
+
+1. 让模板尽量兼容不同版本 Hugo（避免依赖太新的函数）。
+2. Cloudflare Pages 明确指定 `HUGO_VERSION`（和本地一致），减少环境漂移。
+
+![image.png](/notion/hugo-refresh-notion-style/image.png)
+
+## 第二阶段：UI 与阅读体验（Notion/Substack 风）
+
+这部分主要是 CSS 与布局微调，目标很简单：**读起来像文章，而不是像网页**。
+
+今天做的比较显著的点：
+
+- **中英文字体与排版统一**：调整正文基准字号、行高、标题层级间距，让中英文都不“紧”。
+- **图片体验**：图片上下留白更舒展，统一轻圆角；封面图与正文间距也单独处理（很多主题封面不走 `.post-content`，需要额外规则）。
+- **移动端导航按钮修复**：把异常的“横向长条”按钮改回标准的三横汉堡（纵向堆叠），并统一尺寸与对齐。
+
+![image.png](/notion/hugo-refresh-notion-style/image-1.png)
+
+![image.png](/notion/hugo-refresh-notion-style/image-2.png)
+
+![image.png](/notion/hugo-refresh-notion-style/image-3.png)
+
+## 第三阶段：目录（TOC）侧边栏化
+
+目录从“占正文空间的大块组件”改成“右侧悬浮组件”后，阅读体验明显提升。
+
+做法：
+
+1. **桌面端**：右侧固定（不挤压正文），默认展开。
+2. **移动端**：隐藏目录（信息密度太高，反而影响阅读）。
+3. **空目录不渲染**：当文章没有有效标题（或 TableOfContents 为空）时，不显示 TOC 外框，避免出现“只有一个目录标题的空盒子”。
+
+![image.png](/notion/hugo-refresh-notion-style/image-4.png)
+
+![image.png](/notion/hugo-refresh-notion-style/image-5.png)
+
+## 第四阶段：SEO 与结构（能被搜索引擎正确理解）
+
+静态站的 SEO 不是玄学，核心是把结构化信息补齐。
+
+今天补齐了几类常见的基础项：
+
+1. `title / description / canonical`
+2. OpenGraph、Twitter Cards
+3. JSON-LD Schema（文章、面包屑等）
+4. robots 策略（生产环境允许索引，非生产环境 noindex）
+
+## 第五阶段：部署与缓存（Cloudflare Pages + 自定义域名）
+
+今天最“玄学”的部分，其实是缓存：**pages.dev 已经更新，但自定义域名还是旧样式**。
+
+解决思路是两步：
+
+- **确认源站是否更新**：先看 `*.pages.dev`，如果这里是新版本，说明构建没问题。
+- **处理自定义域名缓存**：Cloudflare 后台 Purge Cache（清缓存）；更关键的是给 CSS 做“自动换新”。
+
+我最后采用的是 **CSS 指纹（fingerprint）** 方案：每次构建生成带 hash 的 CSS 文件名，HTML 引用的路径也会变化，这样 CDN 不可能继续命中旧缓存。
+
+一句话总结：**不要和缓存讲道理，让资源 URL 变了，它就必须更新。**
+
+![image.png](/notion/hugo-refresh-notion-style/image-6.png)
+
+![image.png](/notion/hugo-refresh-notion-style/image-7.png)
+
+## 第六阶段：URL 优雅化（slug + aliases）
+
+中文路径在 URL 里会被编码（例如 `%E9%9D%A2%E8%AF%95`），不影响功能，但不够优雅，也不利于传播。
+
+我采用的做法是：
+
+1. 新文章统一设置 `slug`（用英文短链）。
+2. 旧链接用 `aliases` 保留跳转，兼容历史传播。
+
+示例（概念）：
+
+```yaml
+slug: gyg-interview-1
+aliases:
+  - /zh/posts/tech/gyg%E9%9D%A2%E8%AF%951/
+
+```
+
+这样新链接更干净，旧链接也不会 404。
+
+![image.png](/notion/hugo-refresh-notion-style/image-8.png)
+
+## 第七阶段：公众号文章批量导入 Hugo
+
+这是我今天最想解决的问题：公众号写了不少，但个人站一直缺更新。
+
+我做了一个导入流程：
+
+1. 公众号里选定时间区间的文章链接列表。
+2. 本地脚本批量抓取正文，写入 `content/Chinese/posts/...`。
+3. 自动把公众号封面设置为 Hugo `cover`。
+4. 图片下载到本地 `static/wechat/<slug>/`，把正文中的外链替换成本地路径，避免“图片来自微信公众平台，未经允许不可引用”。
+5. 导入后做去重：删掉第一次未下载图片的版本，只保留图片本地化的版本。
+
+这个流程的好处是：以后公众号更新，只要把链接丢进列表，就能一键同步到个人站。
+
+![image.png](/notion/hugo-refresh-notion-style/image-9.png)
+
+## 今日成果清单
+
+1. 本地可稳定预览与构建
+2. UI 排版更接近 Notion/Substack
+3. TOC 右侧悬浮 + 移动端隐藏 + 空目录不显示
+4. 解决 Cloudflare 自定义域名缓存导致的“线上旧样式”
+5. CSS 自动换新（fingerprint）
+6. slug + aliases 优雅链接并兼容历史 URL
+7. 公众号文章批量导入 + 图片本地化 + 去重 + 分类整理
+
+全程都是自然语言和 codex 进行交互，只提出问题等 review，一句代码没写。
+
+欢迎访问个人网站：[https://yfreetime.com/](https://yfreetime.com/) （不需要担心各种奇葩的审核红线了）
+
+![image.png](/notion/hugo-refresh-notion-style/image-10.png)
