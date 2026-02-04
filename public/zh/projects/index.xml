@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>🧱 项目 on 一石半会儿</title>
-    <link>http://localhost:1313/zh/projects/</link>
+    <link>https://yfreetime.com/zh/projects/</link>
     <description>Recent content in 🧱 项目 on 一石半会儿</description>
     <image>
       <title>一石半会儿</title>
-      <url>http://localhost:1313/img/dannylogo.png</url>
-      <link>http://localhost:1313/img/dannylogo.png</link>
+      <url>https://yfreetime.com/img/dannylogo.png</url>
+      <link>https://yfreetime.com/img/dannylogo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>contact@yfreetime.com (Danny Yuan)</managingEditor>
     <webMaster>contact@yfreetime.com (Danny Yuan)</webMaster>
-    <atom:link href="http://localhost:1313/zh/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yfreetime.com/zh/projects/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

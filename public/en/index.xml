@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Freetime</title>
-    <link>http://localhost:1313/en/</link>
+    <link>https://yfreetime.com/en/</link>
     <description>Recent content on Freetime</description>
     <image>
       <title>Freetime</title>
-      <url>http://localhost:1313/img/dannylogo.png</url>
-      <link>http://localhost:1313/img/dannylogo.png</link>
+      <url>https://yfreetime.com/img/dannylogo.png</url>
+      <link>https://yfreetime.com/img/dannylogo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>contact@yfreetime.com (Danny Yuan)</managingEditor>
     <webMaster>contact@yfreetime.com (Danny Yuan)</webMaster>
     <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yfreetime.com/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Embracing Serenity in the Storm: My Vipassana Journey Amidst Career Uncertainties (1)</title>
-      <link>http://localhost:1313/en/posts/life/embracing-serenity-in-the-storm_1/</link>
+      <link>https://yfreetime.com/en/posts/life/embracing-serenity-in-the-storm_1/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/en/posts/life/embracing-serenity-in-the-storm_1/</guid>
+      <guid>https://yfreetime.com/en/posts/life/embracing-serenity-in-the-storm_1/</guid>
       <description>Join me as I recount my transformative ten-day Vipassana experience and draw parallels to the current challenges I face with job applications in Europe. Learn how the lessons from Vipassana can offer clarity and focus during uncertain times.</description>
     </item>
     <item>
       <title>Embracing Serenity in the Storm: My Vipassana Journey Amidst Career Uncertainties (2)</title>
-      <link>http://localhost:1313/en/posts/life/embracing-serenity-in-the-storm_2/</link>
+      <link>https://yfreetime.com/en/posts/life/embracing-serenity-in-the-storm_2/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/en/posts/life/embracing-serenity-in-the-storm_2/</guid>
+      <guid>https://yfreetime.com/en/posts/life/embracing-serenity-in-the-storm_2/</guid>
       <description>Join me as I recount my transformative ten-day Vipassana experience and draw parallels to the current challenges I face with job applications in Europe. Learn how the lessons from Vipassana can offer clarity and focus during uncertain times.</description>
     </item>
     <item>
       <title>Building a Personal Website in a Social Media-Driven World</title>
-      <link>http://localhost:1313/en/posts/tech/building-a-personal-website-in-a-social-media-driven-world/</link>
+      <link>https://yfreetime.com/en/posts/tech/building-a-personal-website-in-a-social-media-driven-world/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/en/posts/tech/building-a-personal-website-in-a-social-media-driven-world/</guid>
+      <guid>https://yfreetime.com/en/posts/tech/building-a-personal-website-in-a-social-media-driven-world/</guid>
       <description>&lt;p&gt;In an era dominated by the instantaneous gratification of social media, the notion of creating a personal website might seem, at first glance, like a quaint relic from a bygone digital epoch. Yet, as we wade through the ephemeral streams of TikToks, Tweets, and status updates, the allure of a dedicated digital space — a personal website — becomes increasingly compelling. This blog post embarks on a journey to unravel the ‘Why,’ ‘How,’ and ‘What’ of building a personal website amidst the clamor of social media, with a special lens on the Chinese digital landscape and a global perspective.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Resume</title>
-      <link>http://localhost:1313/en/resume/</link>
+      <link>https://yfreetime.com/en/resume/</link>
       <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/en/resume/</guid>
+      <guid>https://yfreetime.com/en/resume/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 
@@ -60,9 +60,9 @@
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/en/about/</link>
+      <link>https://yfreetime.com/en/about/</link>
       <pubDate>Thu, 01 Jan 1970 08:33:44 +0800</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/en/about/</guid>
+      <guid>https://yfreetime.com/en/about/</guid>
       <description>&lt;p&gt;I’m Danny, from China, and after studying in Europe, I’m now back in Asia, exploring the Web3 ecosystem and looking to apply my Web2 experience to build decentralized Web3 products. I’m particularly interested in UGC and social products, especially in the context of Web3.&lt;/p&gt;
 &lt;h3 id=&#34;i-am-a-product-manager&#34;&gt;I am a Product Manager&lt;/h3&gt;
 &lt;p&gt;I’ve worked as a Product Manager at TikTok (China), Baidu, and other dynamic startups, with extensive experience taking products from zero to one. I specialize in validating market needs with MVPs (Minimum Viable Products) and scaling products to reach millions. I focus on understanding user needs and market fit, and am passionate about continuously iterating products based on data and user feedback.&lt;/p&gt;</description>

@@ -2,89 +2,89 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>一石半会儿</title>
-    <link>http://localhost:1313/zh/</link>
+    <link>https://yfreetime.com/zh/</link>
     <description>Recent content on 一石半会儿</description>
     <image>
       <title>一石半会儿</title>
-      <url>http://localhost:1313/img/dannylogo.png</url>
-      <link>http://localhost:1313/img/dannylogo.png</link>
+      <url>https://yfreetime.com/img/dannylogo.png</url>
+      <link>https://yfreetime.com/img/dannylogo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>contact@yfreetime.com (Danny Yuan)</managingEditor>
     <webMaster>contact@yfreetime.com (Danny Yuan)</webMaster>
     <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yfreetime.com/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>欧洲产品求职之Getyourguide面试复盘</title>
-      <link>http://localhost:1313/zh/posts/tech/gyg%E9%9D%A2%E8%AF%951/</link>
+      <link>https://yfreetime.com/zh/posts/tech/gyg%E9%9D%A2%E8%AF%951/</link>
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/zh/posts/tech/gyg%E9%9D%A2%E8%AF%951/</guid>
+      <guid>https://yfreetime.com/zh/posts/tech/gyg%E9%9D%A2%E8%AF%951/</guid>
       <description>&lt;p&gt;今天复盘一下我在欧洲找互联网产品经理（PM）工作的经历。欧洲的长板在于生化环材等基础学科和传统工业，也因此在某种程度上形成了产业依赖。欧洲的互联网现状更像十年前的中国，正经历“互联网+”的数字化和移动化转型。然而，由于欧洲市场的分裂现状和法规限制，难以出现垄断型巨头平台。这也符合我对欧洲企业“小而美，专而精”的印象。&lt;/p&gt;</description>
     </item>
     <item>
       <title>合约交易中的韭菜心理</title>
-      <link>http://localhost:1313/zh/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%AD%E7%9A%84%E9%9F%AD%E8%8F%9C%E5%BF%83%E7%90%86/</link>
+      <link>https://yfreetime.com/zh/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%AD%E7%9A%84%E9%9F%AD%E8%8F%9C%E5%BF%83%E7%90%86/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/zh/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%AD%E7%9A%84%E9%9F%AD%E8%8F%9C%E5%BF%83%E7%90%86/</guid>
+      <guid>https://yfreetime.com/zh/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%AD%E7%9A%84%E9%9F%AD%E8%8F%9C%E5%BF%83%E7%90%86/</guid>
       <description>&lt;p&gt;合约交易，起初我以为只是币圈中一小部分高风险偏好者的玩具，现货才是主流。然而，当我真正接触到合约交易后，才发现我错得离谱。在币圈，现货交易的交易规模远不及合约，合约才是这里的“主力军”（但大多数人还是玩现货的多）。这种看似疯狂的“极速通道”，让人每时每刻都能体验到市场的风云变幻。你不需要实际拥有资产，只要预判未来价格的波动，就能进行投机，赚取这其中的“差价”。我也是在亏钱中慢慢懂得，这个市场上，谁的资金更强大，谁就能决定价格的走向。&lt;/p&gt;</description>
     </item>
     <item>
       <title>合约交易与赌博：有何区别？预测市场和传统金融的比较</title>
-      <link>http://localhost:1313/zh/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%8E%E8%B5%8C%E5%8D%9A%E6%9C%89%E4%BD%95%E5%8C%BA%E5%88%AB%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E5%92%8C%E4%BC%A0%E7%BB%9F%E9%87%91%E8%9E%8D%E7%9A%84%E6%AF%94%E8%BE%83-171ea51483288007888ec742b4071076/</link>
+      <link>https://yfreetime.com/zh/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%8E%E8%B5%8C%E5%8D%9A%E6%9C%89%E4%BD%95%E5%8C%BA%E5%88%AB%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E5%92%8C%E4%BC%A0%E7%BB%9F%E9%87%91%E8%9E%8D%E7%9A%84%E6%AF%94%E8%BE%83-171ea51483288007888ec742b4071076/</link>
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/zh/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%8E%E8%B5%8C%E5%8D%9A%E6%9C%89%E4%BD%95%E5%8C%BA%E5%88%AB%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E5%92%8C%E4%BC%A0%E7%BB%9F%E9%87%91%E8%9E%8D%E7%9A%84%E6%AF%94%E8%BE%83-171ea51483288007888ec742b4071076/</guid>
+      <guid>https://yfreetime.com/zh/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%8E%E8%B5%8C%E5%8D%9A%E6%9C%89%E4%BD%95%E5%8C%BA%E5%88%AB%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E5%92%8C%E4%BC%A0%E7%BB%9F%E9%87%91%E8%9E%8D%E7%9A%84%E6%AF%94%E8%BE%83-171ea51483288007888ec742b4071076/</guid>
       <description>&lt;p&gt;最近我在研究加密货币合约交易时，发现不少人都在问，合约交易是不是和赌博差不多？其实，这个问题值得深思。合约交易的核心是对市场价格波动的预测，而赌博则是对某些不确定事件结果的押注。两者听起来有点相似，但深入了解之后，你会发现它们有着本质的区别。除了合约交易，我还碰到了一些像&lt;strong&gt;Polymarket&lt;/strong&gt;这样的预测市场，感觉它们和合约交易也有些相似。今天我就把这些问题整理一下，聊聊合约交易、赌博、预测市场以及传统金融衍生品的异同。&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024年终总结</title>
-      <link>http://localhost:1313/zh/posts/life/2024/</link>
+      <link>https://yfreetime.com/zh/posts/life/2024/</link>
       <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/zh/posts/life/2024/</guid>
+      <guid>https://yfreetime.com/zh/posts/life/2024/</guid>
       <description>&lt;h2 id=&#34;关于互联网和博客&#34;&gt;关于互联网和博客&lt;/h2&gt;
 &lt;p&gt;我好像从来没有通过公开文字的形式记录自己的一年。过去的两年，我会通过播客的方式谈谈昨天、今天和明天的“俗套”故事，通常是归纳几个关键词，然后围绕这些关键词展开，分享自己的经历和感悟。虽然这样的做法像是命题作文，但它的好处是，能够比较简单地完成年终总结。然而，播客的主要目的还是娱乐，因为节目是给别人看的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于我</title>
-      <link>http://localhost:1313/zh/about/</link>
+      <link>https://yfreetime.com/zh/about/</link>
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/zh/about/</guid>
+      <guid>https://yfreetime.com/zh/about/</guid>
       <description>&lt;p&gt;我是Danny，来自中国，曾在欧洲学习，现在回到亚洲，正在深入探索 Web3 生态，希望将过去在 Web2 领域积累的经验应用于去中心化的 Web3 世界。我的兴趣包括用户生成内容（UGC）和社交产品，尤其关注如何在 Web3 环境中打造创新的去中心化产品。&lt;/p&gt;</description>
     </item>
     <item>
       <title>在喧嚣中寻求宁静的艺术：我的内观之旅(2)</title>
-      <link>http://localhost:1313/zh/posts/life/embracing-serenity-in-the-storm_2/</link>
+      <link>https://yfreetime.com/zh/posts/life/embracing-serenity-in-the-storm_2/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/zh/posts/life/embracing-serenity-in-the-storm_2/</guid>
+      <guid>https://yfreetime.com/zh/posts/life/embracing-serenity-in-the-storm_2/</guid>
       <description>&lt;h3 id=&#34;踏上自我发现之旅&#34;&gt;&lt;strong&gt;踏上自我发现之旅&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;让我们更深入地探讨我的Vipassana冥想之旅。申请了几天假期后，我飞往了另一座城市，带着行李，踏上了一座鲜为人知的山岳。我选择步行登顶，而非乘坐巴士，我觉得这一选择标志着我的旅程正式开始。到达时，我发现自己是最年轻的学员，周围大多是可以做我叔叔阿姨的人。看得出，他们有些惊讶——也许从他们的角度来看，一个年轻人不该为沉重的困扰所困。然而，推动我前行的并非焦虑，而是好奇心。我将此视为一次令人兴奋的冒险，也是一个摆脱工作压力的机会。&lt;/p&gt;</description>
     </item>
     <item>
       <title>在喧嚣中寻求宁静的艺术：我的内观之旅(1)</title>
-      <link>http://localhost:1313/zh/posts/life/embracing-serenity-in-the-storm_1/</link>
+      <link>https://yfreetime.com/zh/posts/life/embracing-serenity-in-the-storm_1/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/zh/posts/life/embracing-serenity-in-the-storm_1/</guid>
+      <guid>https://yfreetime.com/zh/posts/life/embracing-serenity-in-the-storm_1/</guid>
       <description>&lt;p&gt;今天，我想回忆起一次充满宁静与深思的经历：2017年，我在中国一座宁静的寺庙中参加了为期十天的禅修Vipassana静坐课程。那时，我刚刚开始职业生涯，正面临人生中的诸多深刻问题。如今，这些思考再次浮现，尤其是在我面对来自欧洲各地的工作申请的冷淡回应，以及文化适应的疲惫之际。在这个时刻，我愈加意识到自己迫切需要的是宁静、反思和一种积极的应对人生挑战的方式。Vipassana，再次成为了我的庇护所。&lt;/p&gt;</description>
     </item>
     <item>
       <title>🧸 留言板碎碎念 </title>
-      <link>http://localhost:1313/zh/msg/</link>
+      <link>https://yfreetime.com/zh/msg/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/zh/msg/</guid>
+      <guid>https://yfreetime.com/zh/msg/</guid>
       <description> </description>
     </item>
     <item>
       <title>建立个人网站：在社交媒体主导的世界中找到自己的数字空间</title>
-      <link>http://localhost:1313/zh/posts/tech/tech_template/</link>
+      <link>https://yfreetime.com/zh/posts/tech/tech_template/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/zh/posts/tech/tech_template/</guid>
+      <guid>https://yfreetime.com/zh/posts/tech/tech_template/</guid>
       <description>&lt;p&gt;在一个社交媒体主导、即时满足感盛行的时代，建立个人网站的想法乍一看似乎是数字时代过去遗留的一种陈旧习惯。然而，当我们徜徉在 TikTok、推文和状态更新的短暂信息流中时，一个专属数字空间的吸引力——个人网站——却变得越来越具有吸引力。这篇博客文章将从中国数字环境和全球视角出发，探讨在社交媒体的喧嚣中，创建个人网站的“为什么”、“怎么做”和“内容是什么”。&lt;/p&gt;</description>
     </item>
     <item>
       <title>简历</title>
-      <link>http://localhost:1313/zh/resume/</link>
+      <link>https://yfreetime.com/zh/resume/</link>
       <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/zh/resume/</guid>
+      <guid>https://yfreetime.com/zh/resume/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 
