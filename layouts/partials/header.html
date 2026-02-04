@@ -106,7 +106,7 @@
             {{ range site.Menus.main }}
             <li>
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}">
-                    <span {{ if and .Page (not (eq .Page nil)) (eq (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL)) (.Page.Permalink | absLangURL)) }} class="active" {{ end }}>
+                    <span {{ if and .Page (not (eq .Page nil)) (eq (cond (hasSuffix .URL "/") .URL (printf "%s/" .URL)) (.Page.Permalink | absLangURL)) }} class="active" {{ end }}>
                         {{ .Name }}
                     </span>
                 </a>
