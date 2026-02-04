@@ -63,6 +63,7 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
+{{- if or (ne .Kind "section") (gt (len .Pages) 0) -}}
 <article class="{{ $class }}">
 
   <div class="post-info"> <!--新添加的行-->
@@ -79,12 +80,12 @@
         {{- end }}
       </h2>
     </header>
-    {{- if (ne (.Param "hideSummary") true) }}
+    {{- if (and (ne (.Param "hideSummary") true) (ne .Kind "section")) }}
     <div class="entry-content">
       <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
     </div>
     {{- end }}
-    {{- if not (.Param "hideMeta") }}
+    {{- if (and (not (.Param "hideMeta")) (ne .Kind "section")) }}
     <footer class="entry-footer">
       {{- partial "post_meta.html" . -}}
     </footer>
@@ -94,6 +95,7 @@
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
+{{- end }}
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}

@@ -35,7 +35,7 @@
     <nav class="nav">
         <div class="logo">
             {{/* 网站名称，根据语言动态切换显示 */}}
-            {{ $label_text := cond (eq .Lang "zh") "浮生片刻" "Freetime" }}
+            {{ $label_text := cond (eq .Lang "zh") "一石半会儿" "Freetime" }}
             {{ if site.Title }}
             <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
                 {{ if site.Params.label.icon }}
@@ -66,7 +66,7 @@
             <div class="logo-switches">
                 {{/* 夜间模式切换按钮 */}}
                 {{ if not site.Params.disableThemeToggle }}
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" onclick="javascript:location.reload();">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" type="button">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
@@ -102,7 +102,7 @@
             </div>
         </div>
         {{/* 主导航菜单 */}}
-        <ul id="menu">
+        <ul id="menu" class="menu">
             {{ range site.Menus.main }}
             <li>
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}">
@@ -115,10 +115,10 @@
         </ul>
 
         {{/* 移动端汉堡菜单 */}}
-        <div class="hamburger-menu" onclick="document.getElementById('menu').classList.toggle('open')">
+        <button id="menu-toggle" class="hamburger-menu" type="button" aria-controls="menu" aria-expanded="false" aria-label="Toggle menu">
             <span></span>
             <span></span>
             <span></span>
-        </div>
+        </button>
     </nav>
 </header>

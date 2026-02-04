@@ -3,19 +3,13 @@
 {{- /* Can be overwritten by partial with the same name in the global layouts. */ -}}
 {{- /* Head custom content area end */ -}}
 
-<head>
+{{- $preconnect := slice "https://fonts.cdnfonts.com" "https://fonts.googleapis.com" "https://fonts.gstatic.com" -}}
+{{- with site.Config.Services.GoogleAnalytics.ID -}}
+    {{- $preconnect = $preconnect | append "https://www.googletagmanager.com" "https://www.google-analytics.com" -}}
+{{- end -}}
+{{- range $preconnect }}
+<link rel="preconnect" href="{{ . }}" crossorigin>
+{{- end }}
 
-    <link href="https://fonts.cdnfonts.com/css/code-new-roman" rel="stylesheet">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.GoogleAnalyticsID}}"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', '{{ .Site.Params.GoogleAnalyticsID}}');
-    </script>
-    <!-- End of Global site tag (gtag.js) - Google Analytics -->
-
-
-</head>
+<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/code-new-roman">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap">

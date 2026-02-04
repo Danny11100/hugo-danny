@@ -5,7 +5,6 @@ draft : false
 author : "Danny Yuan"
 comments: true #是否展示评论
 showToc: true # 显示目录
-TocOpen: false # 自动展开目录
 hidemeta: false # 是否隐藏文章的元信息，如发布日期、作者等
 ##disableShare: true # 底部不显示分享栏
 Showbreadcrumbs: true #顶部显示当前路径

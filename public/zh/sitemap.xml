@@ -57,6 +57,9 @@
                 href="http://localhost:1313/zh/categories/tech/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh/posts/tech/gyg%E9%9D%A2%E8%AF%951/</loc>
+    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/zh/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -69,9 +72,6 @@
                 hreflang="zh"
                 href="http://localhost:1313/zh/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/zh/posts/tech/gyg%E9%9D%A2%E8%AF%951/</loc>
-    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/zh/tags/crypto/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>

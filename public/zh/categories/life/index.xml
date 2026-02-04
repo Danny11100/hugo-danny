@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Life on 浮生片刻</title>
+    <title>Life on 一石半会儿</title>
     <link>http://localhost:1313/zh/categories/life/</link>
-    <description>Recent content in Life on 浮生片刻</description>
+    <description>Recent content in Life on 一石半会儿</description>
+    <image>
+      <title>一石半会儿</title>
+      <url>http://localhost:1313/img/dannylogo.png</url>
+      <link>http://localhost:1313/img/dannylogo.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
+    <managingEditor>contact@yfreetime.com (Danny Yuan)</managingEditor>
+    <webMaster>contact@yfreetime.com (Danny Yuan)</webMaster>
     <lastBuildDate>Tue, 31 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/zh/categories/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2024年终总结</title>
       <link>http://localhost:1313/zh/posts/life/2024/</link>
-      <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
       <guid>http://localhost:1313/zh/posts/life/2024/</guid>
       <description>&lt;h2 id=&#34;关于互联网和博客&#34;&gt;关于互联网和博客&lt;/h2&gt;
 &lt;p&gt;我好像从来没有通过公开文字的形式记录自己的一年。过去的两年，我会通过播客的方式谈谈昨天、今天和明天的“俗套”故事，通常是归纳几个关键词，然后围绕这些关键词展开，分享自己的经历和感悟。虽然这样的做法像是命题作文，但它的好处是，能够比较简单地完成年终总结。然而，播客的主要目的还是娱乐，因为节目是给别人看的。&lt;/p&gt;</description>

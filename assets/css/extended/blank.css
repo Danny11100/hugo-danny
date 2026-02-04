@@ -4,35 +4,75 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
 
+:root {
+    --content: #2f3437;
+    --primary: #2f3437;
+    --secondary: #6b6f76;
+    --tertiary: #d7dbe0;
+    --code-bg: #f6f5f4;
+    --code-block-bg: #f6f5f4;
+}
+
 
 body {
-    font-family: 'Code New Roman', sans-serif;
+    font-family: "Source Sans 3", "Noto Sans SC", sans-serif;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.7;
+    letter-spacing: 0.1px;
     margin: 0;
 }
 
 .post-content pre,
 code {
-    font-family: 'Code New Roman', sans-serif;
-    font-size: 13;
-    line-height: 1.2;
+    font-family: "Code New Roman", monospace;
+    font-size: 13px;
+    line-height: 1.35;
     max-height: 40rem;
     --hljs-bg: #ebebeb;
 }
 
+.hamburger-menu {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 6px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+}
+
 .entry-cover1 {
-    border-radius: 10px;
+    border-radius: 12px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 1.2rem 0 2rem;
+    overflow: hidden;
+}
+
+.entry-cover1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
 }
 
 .post-entry {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 16px;
 }
 
 .entry-cover {
@@ -46,11 +86,172 @@ code {
     align-content: center;
 }
 
+@media (max-width: 768px) {
+    .nav {
+        align-items: flex-start;
+    }
+
+    #menu {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        gap: 8px;
+        margin: 0 var(--gap) var(--gap);
+        overflow: visible;
+        white-space: normal;
+    }
+
+    #menu.open {
+        display: flex;
+    }
+
+    #menu li + li {
+        margin-inline-start: 0;
+    }
+
+    .hamburger-menu {
+        display: inline-flex;
+        margin: auto var(--gap);
+    }
+
+    .post-entry {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .entry-cover {
+        width: 100%;
+        max-height: none;
+    }
+}
+
 .post-info {
     display: inline-block;
     overflow: hidden;
     width: 100%;
     padding-right: 10px;
+}
+
+.post-title,
+.page-header h1 {
+    letter-spacing: -0.01em;
+}
+
+.post-title {
+    font-size: 2.35rem;
+    line-height: 1.25;
+    margin: 8px 0 10px;
+}
+
+.entry-header h2 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+
+.post-header {
+    margin: 32px auto 24px;
+    padding-top: 12px;
+}
+
+.breadcrumbs {
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+}
+
+.post-meta {
+    font-size: 0.95rem;
+    gap: 8px;
+    margin-top: 6px;
+    color: var(--secondary);
+}
+
+.post-description {
+    margin: 8px 0 6px;
+}
+
+.post-divider {
+    margin: 18px 0 24px;
+    border-color: var(--tertiary);
+    opacity: 0.9;
+}
+
+.breadcrumbs {
+    color: var(--secondary);
+}
+
+.post-meta a,
+.breadcrumbs a {
+    color: inherit;
+}
+
+.entry-content p {
+    color: var(--secondary);
+}
+
+.post-content {
+    font-size: 1.05rem;
+    line-height: 1.75;
+}
+
+.post-content p {
+    margin: 0 0 1em;
+}
+
+.post-content img,
+.post-content figure,
+.post-entry img,
+.entry-cover img {
+    border-radius: 12px;
+}
+
+.post-content img,
+.post-content figure {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.6rem 0 1.9rem;
+}
+
+.post-content figure img {
+    margin: 0;
+    display: block;
+    max-width: 100%;
+}
+
+.post-content figcaption {
+    margin-top: 0.6rem;
+    color: var(--secondary);
+    font-size: 0.92rem;
+}
+
+.post-content h2 {
+    margin: 1.6em 0 0.6em;
+    font-size: 1.6rem;
+    scroll-margin-top: clamp(90px, 12vh, 140px);
+}
+
+.post-content h3 {
+    margin: 1.2em 0 0.5em;
+    font-size: 1.3rem;
+    scroll-margin-top: clamp(90px, 12vh, 140px);
+}
+
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    scroll-margin-top: clamp(90px, 12vh, 140px);
+}
+
+.post-content ul,
+.post-content ol {
+    margin: 0.2em 0 1.2em 1.2em;
+}
+
+.post-content blockquote {
+    border-left: 3px solid var(--tertiary);
+    padding: 0.2em 0 0.2em 1em;
+    color: var(--secondary);
 }
 
 .list {
@@ -70,6 +271,14 @@ code {
     background-attachment: fixed;
 }
 
+@media (max-width: 768px) {
+    .list,
+    .dark.list {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+}
+
 #top {
     background-color: rgb(209, 220, 223);
 
@@ -81,9 +290,14 @@ code {
 }
 
 .dark {
+    --content: #e6e6e6;
+    --primary: #f2f2f2;
+    --secondary: #b7b7b7;
+    --tertiary: #4a4f55;
+    --code-bg: #2f3437;
+    --code-block-bg: #2f3437;
     --entry: rgb(0, 100, 148, 0.25);
     --border: rgb(255, 255, 255, 0.37);
-    --secondary: rgb(202, 202, 202);
     --hljs-bg: #272b33;
 }
 
@@ -121,18 +335,18 @@ code {
 
 
 .dark .toc {
-    background: rgba(115, 115, 115, 20%);
+    background: rgba(115, 115, 115, 12%);
     margin-top: 1em;
-    padding: 2em;
-    border: 1.2px solid var(--border);
+    padding: 16px 18px;
+    border: 1px solid var(--border);
     border-radius: var(--radius);
 }
 
 .toc {
-    background: rgba(115, 115, 115, 0%);
+    background: rgba(255, 255, 255, 0.35);
     margin-top: 1em;
-    padding: 2em;
-    border: 1.2px dotted gray;
+    padding: 16px 18px;
+    border: 1px solid var(--border);
     border-radius: var(--radius);
 }
 
@@ -162,15 +376,15 @@ code {
 }
 
 .toc details summary {
-    margin-inline-start: 20px;
-    padding: 12px 0;
-    width: 200px;
+    margin-inline-start: 0;
+    padding: 6px 0 10px;
+    font-size: 0.95rem;
+    color: var(--primary);
     cursor: pointer;
 }
 
 .toc details[open] summary {
-    font-weight: 500;
-    width: 200px;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -180,11 +394,8 @@ code {
 
 .active {
     font-size: 100%;
-    /*font-weight: 600;*/
-    border-bottom: 1px solid transparent;
-    padding-bottom: 0.1rem;
-    border-bottom-color: var(--secondary);
     font-weight: 600;
+    color: var(--primary);
 }
 
 .dark .active {
@@ -192,16 +403,12 @@ code {
     font-weight: 600;
 }
 
-.toc ul {
-    list-style-type: circle;
-}
-
 .toc .inner {
-    margin: 0 0 0 20px;
-    padding: 0 15px 15px 20px;
-    font-size: 16px;
-
-    max-height: 83vh;
+    margin: 0;
+    padding: 0;
+    font-size: 0.92rem;
+    line-height: 1.55;
+    max-height: 70vh;
     overflow-y: auto;
 }
 
@@ -211,25 +418,79 @@ code {
     border-radius: var(--radius);
 }
 
+.toc ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
 .toc li ul {
-    margin-inline-start: calc(var(--gap) * 0.5);
-    list-style-type: none;
+    margin: 6px 0 0 0.9rem;
+    padding-left: 0.8rem;
+    border-left: 1px solid var(--border);
+    list-style: none;
 }
 
 .toc li {
     list-style: none;
-    font-size: 0.90rem;
-    /*padding-bottom: 5px;*/
-    padding: 5px 0 0 0;
+    font-size: 0.92rem;
+    padding: 0;
+    margin: 0.25rem 0;
 }
 
-.toc li a:hover {
-    font-weight: 600;
+.toc ul ul {
+    margin-top: 0.35rem;
 }
 
-.dark .toc li a:hover {
-    font-weight: 600;
-    color: var(--content);
+@media (max-width: 768px) {
+    .post-toc,
+    .toc {
+        display: none;
+    }
+}
+
+@media (max-width: 1199px) {
+    .post-toc {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .post-toc {
+        position: fixed;
+        right: 24px;
+        top: 140px;
+        width: 240px;
+        max-height: calc(100vh - 180px);
+        z-index: 10;
+    }
+
+    .post-toc .toc {
+        margin-top: 0;
+    }
+
+    .post-toc .toc .inner {
+        max-height: calc(100vh - 220px);
+        overflow-y: auto;
+    }
+}
+
+.toc a {
+    color: var(--secondary);
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+.toc a:hover {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.toc a:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+    border-radius: 4px;
 }
 
 #ppt_shortcodes {

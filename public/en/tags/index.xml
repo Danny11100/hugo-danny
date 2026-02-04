@@ -4,20 +4,27 @@
     <title>🧩 Tags on Freetime</title>
     <link>http://localhost:1313/en/tags/</link>
     <description>Recent content in 🧩 Tags on Freetime</description>
+    <image>
+      <title>Freetime</title>
+      <url>http://localhost:1313/img/dannylogo.png</url>
+      <link>http://localhost:1313/img/dannylogo.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>contact@yfreetime.com (Danny Yuan)</managingEditor>
+    <webMaster>contact@yfreetime.com (Danny Yuan)</webMaster>
     <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vipassana</title>
       <link>http://localhost:1313/en/tags/vipassana/</link>
-      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
       <guid>http://localhost:1313/en/tags/vipassana/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
       <link>http://localhost:1313/en/tags/tech/</link>
-      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
       <guid>http://localhost:1313/en/tags/tech/</guid>
       <description></description>
     </item>

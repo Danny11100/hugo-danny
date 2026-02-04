@@ -19,17 +19,36 @@
 </title>
 
 <!-- Meta Description -->
-<meta name="description" content="{{- with .Description }}
-    {{ . }}
-    {{- else }}
-    {{- if or .IsPage .IsSection }}
-        {{ .Summary | default (printf "%s - %s" .Title site.Title) }}
-    {{- else }}
-        {{- with site.Params.description }}
-            {{ . }}
-        {{- end }}
-    {{- end }}
-{{- end }}">
+{{- $description := "" -}}
+{{- with .Description -}}
+    {{- $description = . -}}
+{{- else -}}
+    {{- if or .IsPage .IsSection -}}
+        {{- $description = .Summary -}}
+    {{- else -}}
+        {{- with site.Params.description -}}
+            {{- $description = . -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+{{- $description = $description | plainify | htmlUnescape | strings.TrimSpace -}}
+{{- if gt (len $description) 160 -}}
+    {{- $description = $description | truncate 160 -}}
+{{- end -}}
+<meta name="description" content="{{ $description }}">
+
+<!-- Meta Keywords -->
+{{- $keywords := slice -}}
+{{- with .Params.keywords -}}
+    {{- $keywords = . -}}
+{{- else -}}
+    {{- if .Params.tags -}}
+        {{- $keywords = .Params.tags -}}
+    {{- end -}}
+{{- end -}}
+{{- if gt (len $keywords) 0 -}}
+<meta name="keywords" content="{{ delimit $keywords ", " }}">
+{{- end -}}
 
 <!-- Author -->
 <meta name="author" content="{{ partial "author.html" . }}">
@@ -40,6 +59,12 @@
 {{- else -}}
     {{ .Permalink }}
 {{- end }}">
+
+<!-- Social / Structured Data -->
+{{- partial "templates/opengraph.html" . }}
+{{- partial "templates/twitter_cards.html" . }}
+{{- partial "templates/schema_json.html" . }}
+{{- partial "templates/google_analytics.html" . }}
 
 <!-- Verification Tags -->
 {{- if site.Params.analytics.google.SiteVerificationTag }}
@@ -92,6 +117,9 @@
 {{ end }}
 {{ range .AllTranslations -}}
 <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+{{- end }}
+{{- with site.Home }}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
 {{- end }}
 
 <noscript>
