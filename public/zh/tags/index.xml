@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>🧩 标签合集 on 一石半会儿</title>
-    <link>https://yfreetime.com/zh/tags/</link>
+    <link>http://localhost:1313/zh/tags/</link>
     <description>Recent content in 🧩 标签合集 on 一石半会儿</description>
     <image>
       <title>一石半会儿</title>
-      <url>https://yfreetime.com/img/dannylogo.png</url>
-      <link>https://yfreetime.com/img/dannylogo.png</link>
+      <url>http://localhost:1313/img/dannylogo.png</url>
+      <link>http://localhost:1313/img/dannylogo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>contact@yfreetime.com (Danny Yuan)</managingEditor>
     <webMaster>contact@yfreetime.com (Danny Yuan)</webMaster>
-    <atom:link href="https://yfreetime.com/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Interview</title>
-      <link>https://yfreetime.com/zh/tags/interview/</link>
+      <link>http://localhost:1313/zh/tags/interview/</link>
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>https://yfreetime.com/zh/tags/interview/</guid>
+      <guid>http://localhost:1313/zh/tags/interview/</guid>
       <description></description>
     </item>
     <item>
       <title>Crypto</title>
-      <link>https://yfreetime.com/zh/tags/crypto/</link>
+      <link>http://localhost:1313/zh/tags/crypto/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>https://yfreetime.com/zh/tags/crypto/</guid>
+      <guid>http://localhost:1313/zh/tags/crypto/</guid>
       <description></description>
     </item>
     <item>
       <title>Web3</title>
-      <link>https://yfreetime.com/zh/tags/web3/</link>
+      <link>http://localhost:1313/zh/tags/web3/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>https://yfreetime.com/zh/tags/web3/</guid>
+      <guid>http://localhost:1313/zh/tags/web3/</guid>
       <description></description>
     </item>
     <item>
       <title>复盘</title>
-      <link>https://yfreetime.com/zh/tags/%E5%A4%8D%E7%9B%98/</link>
+      <link>http://localhost:1313/zh/tags/%E5%A4%8D%E7%9B%98/</link>
       <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>https://yfreetime.com/zh/tags/%E5%A4%8D%E7%9B%98/</guid>
+      <guid>http://localhost:1313/zh/tags/%E5%A4%8D%E7%9B%98/</guid>
       <description></description>
     </item>
     <item>
       <title>内观</title>
-      <link>https://yfreetime.com/zh/tags/%E5%86%85%E8%A7%82/</link>
+      <link>http://localhost:1313/zh/tags/%E5%86%85%E8%A7%82/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>https://yfreetime.com/zh/tags/%E5%86%85%E8%A7%82/</guid>
+      <guid>http://localhost:1313/zh/tags/%E5%86%85%E8%A7%82/</guid>
       <description></description>
     </item>
     <item>
       <title>个人网站</title>
-      <link>https://yfreetime.com/zh/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</link>
+      <link>http://localhost:1313/zh/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>https://yfreetime.com/zh/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</guid>
+      <guid>http://localhost:1313/zh/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,5 +1,5 @@
 User-agent: *
-Disallow:
-Sitemap: https://yfreetime.com/sitemap.xml
+Disallow: /
+Sitemap: http://localhost:1313/sitemap.xml
 
 

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>🏖️ Life on Freetime</title>
-    <link>https://yfreetime.com/en/posts/life/</link>
+    <link>http://localhost:1313/en/posts/life/</link>
     <description>Recent content in 🏖️ Life on Freetime</description>
     <image>
       <title>Freetime</title>
-      <url>https://yfreetime.com/img/dannylogo.png</url>
-      <link>https://yfreetime.com/img/dannylogo.png</link>
+      <url>http://localhost:1313/img/dannylogo.png</url>
+      <link>http://localhost:1313/img/dannylogo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>contact@yfreetime.com (Danny Yuan)</managingEditor>
     <webMaster>contact@yfreetime.com (Danny Yuan)</webMaster>
-    <atom:link href="https://yfreetime.com/en/posts/life/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/posts/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Embracing Serenity in the Storm: My Vipassana Journey Amidst Career Uncertainties (1)</title>
-      <link>https://yfreetime.com/en/posts/life/embracing-serenity-in-the-storm_1/</link>
+      <link>http://localhost:1313/en/posts/life/embracing-serenity-in-the-storm_1/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>https://yfreetime.com/en/posts/life/embracing-serenity-in-the-storm_1/</guid>
+      <guid>http://localhost:1313/en/posts/life/embracing-serenity-in-the-storm_1/</guid>
       <description>Join me as I recount my transformative ten-day Vipassana experience and draw parallels to the current challenges I face with job applications in Europe. Learn how the lessons from Vipassana can offer clarity and focus during uncertain times.</description>
     </item>
     <item>
       <title>Embracing Serenity in the Storm: My Vipassana Journey Amidst Career Uncertainties (2)</title>
-      <link>https://yfreetime.com/en/posts/life/embracing-serenity-in-the-storm_2/</link>
+      <link>http://localhost:1313/en/posts/life/embracing-serenity-in-the-storm_2/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>https://yfreetime.com/en/posts/life/embracing-serenity-in-the-storm_2/</guid>
+      <guid>http://localhost:1313/en/posts/life/embracing-serenity-in-the-storm_2/</guid>
       <description>Join me as I recount my transformative ten-day Vipassana experience and draw parallels to the current challenges I face with job applications in Europe. Learn how the lessons from Vipassana can offer clarity and focus during uncertain times.</description>
     </item>
   </channel>

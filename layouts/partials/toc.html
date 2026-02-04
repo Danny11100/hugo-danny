@@ -1,6 +1,13 @@
 {{- $headers := findRE "<h[1-6].*?>(.|\n])+?</h[1-6]>" .Content -}}
     {{- $has_headers := ge (len $headers) 1 -}}
-    {{- if $has_headers -}}
+    {{- $use_hugo_toc := (.Param "UseHugoToc") -}}
+    {{- $toc := "" -}}
+    {{- $has_toc := false -}}
+    {{- if $use_hugo_toc -}}
+        {{- $toc = .TableOfContents -}}
+        {{- $has_toc = gt (len (findRE "<li" $toc)) 0 -}}
+    {{- end -}}
+    {{- if and $has_headers (or (not $use_hugo_toc) $has_toc) -}}
     <div class="toc">
         <details {{if (.Param "TocOpen" ) }} open{{ end }}>
             <summary accesskey="c" title="(Alt + C)">
@@ -8,8 +15,8 @@
             </summary>
 
             <div class="inner">
-                {{- if (.Param "UseHugoToc") }}
-                {{- .TableOfContents -}}
+                {{- if $use_hugo_toc }}
+                {{- $toc -}}
                 {{- else }}
                 {{- $largest := 6 -}}
                 {{- range $headers -}}
