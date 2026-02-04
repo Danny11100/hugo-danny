@@ -180,7 +180,6 @@ params:
     favicon32x32: "img/dannylogo.png"
     apple_touch_icon: "img/dannylogo.png"
     safari_pinned_tab: "img/dannylogo.png"
-  customCSS: ["css/custom.css"]
 
 markup:
   goldmark:
