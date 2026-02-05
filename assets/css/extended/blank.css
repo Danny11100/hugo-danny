@@ -198,6 +198,29 @@ code {
     line-height: 1.75;
 }
 
+/* WeChat-imported posts often carry inline dark text colors. Force readable text in dark mode. */
+body.dark .post-content section[style*="color:"],
+body.dark .post-content p[style*="color:"],
+body.dark .post-content span[style*="color:"],
+body.dark .post-content li[style*="color:"],
+body.dark .post-content h1[style*="color:"],
+body.dark .post-content h2[style*="color:"],
+body.dark .post-content h3[style*="color:"],
+body.dark .post-content h4[style*="color:"],
+body.dark .post-content h5[style*="color:"],
+body.dark .post-content h6[style*="color:"],
+body.dark .post-content [data-layout-id],
+body.dark .post-content [data-pm-slice],
+body.dark .post-content [leaf],
+body.dark .post-content .rich_pages,
+body.dark .post-content .normal_text_link {
+    color: var(--content) !important;
+}
+
+body.dark .post-content a {
+    color: var(--primary);
+}
+
 .post-content p {
     margin: 0 0 1em;
 }

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Interview on Freetime</title>
+    <link>http://localhost:1313/en/tags/interview/</link>
+    <description>Recent content in Interview on Freetime</description>
+    <image>
+      <title>Freetime</title>
+      <url>http://localhost:1313/img/dannylogo.png</url>
+      <link>http://localhost:1313/img/dannylogo.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>contact@yfreetime.com (Danny Yuan)</managingEditor>
+    <webMaster>contact@yfreetime.com (Danny Yuan)</webMaster>
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/interview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>European PM Job Search: GetYourGuide Interview Retrospective</title>
+      <link>http://localhost:1313/en/posts/tech/gyg-interview-1/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/posts/tech/gyg-interview-1/</guid>
+      <description>&lt;p&gt;Today I’m reviewing my experience finding a product manager job in Europe. Europe’s strengths lie in fundamental sciences and traditional industries, which created a certain dependence on industry. The current internet landscape in Europe feels more like China ten years ago—going through “Internet+” digitalization and mobile transformation. But because of fragmented markets and regulatory constraints, it’s hard for monopoly‑style giants to emerge. This matches my impression of European companies: small, beautiful, focused.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

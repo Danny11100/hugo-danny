@@ -13,14 +13,70 @@
     <language>en</language>
     <managingEditor>contact@yfreetime.com (Danny Yuan)</managingEditor>
     <webMaster>contact@yfreetime.com (Danny Yuan)</webMaster>
-    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/en/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Building a Personal Website in a Social Media-Driven World</title>
-      <link>http://localhost:1313/en/posts/tech/building-a-personal-website-in-a-social-media-driven-world/</link>
+      <title>Upgrading My Personal Site with Codex: Notion‑Style Layout, SEO, Cloudflare Cache, and WeChat Sync</title>
+      <link>http://localhost:1313/en/posts/tech/hugo-refresh-notion-style/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/posts/tech/hugo-refresh-notion-style/</guid>
+      <description>A full pipeline refresh of my Hugo blog: Notion/Substack‑style typography, TOC sidebar, SEO, CSS cache busting, and WeChat article import.</description>
+    </item>
+    <item>
+      <title>Information Noise Through the Lens of the Attention Model</title>
+      <link>http://localhost:1313/en/posts/tech/wx-20260130-80844f/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/posts/tech/wx-20260130-80844f/</guid>
+      <description>Attention models fight overload; attention economics amplifies stimulation. The only move is to take back allocation control.</description>
+    </item>
+    <item>
+      <title>One Book, Four AIs: Different Work Attitudes on the Same Task</title>
+      <link>http://localhost:1313/en/posts/tech/ai/</link>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/posts/tech/ai/</guid>
+      <description>NotebookLM is boundary‑aware and will stop; GPT looks polished even when it lacks material; Kimi is steady; Manus feels like a real agent you can work with.</description>
+    </item>
+    <item>
+      <title>Seeing ‘Dead Yet?’ Top the Charts Actually Felt Normal</title>
+      <link>http://localhost:1313/en/posts/tech/wx-20260110-91fa36/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/posts/tech/wx-20260110-91fa36/</guid>
+      <description>Being safe and not needing these tools is the best state. If we prepare at all, it’s only to make the worst case a little less bad.</description>
+    </item>
+    <item>
+      <title>Treat Attention and Action as Assets</title>
+      <link>http://localhost:1313/en/posts/tech/wx-20260106-fd542b/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/posts/tech/wx-20260106-fd542b/</guid>
+      <description>I created a life‑account plan around health, relationships, cash flow, learning, and exploration—a framework to organize life.</description>
+    </item>
+    <item>
+      <title>European PM Job Search: GetYourGuide Interview Retrospective</title>
+      <link>http://localhost:1313/en/posts/tech/gyg-interview-1/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/posts/tech/gyg-interview-1/</guid>
+      <description>&lt;p&gt;Today I’m reviewing my experience finding a product manager job in Europe. Europe’s strengths lie in fundamental sciences and traditional industries, which created a certain dependence on industry. The current internet landscape in Europe feels more like China ten years ago—going through “Internet+” digitalization and mobile transformation. But because of fragmented markets and regulatory constraints, it’s hard for monopoly‑style giants to emerge. This matches my impression of European companies: small, beautiful, focused.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The “Retail Leek” Psychology in Futures Trading</title>
+      <link>http://localhost:1313/en/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%AD%E7%9A%84%E9%9F%AD%E8%8F%9C%E5%BF%83%E7%90%86/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%AD%E7%9A%84%E9%9F%AD%E8%8F%9C%E5%BF%83%E7%90%86/</guid>
+      <description>&lt;p&gt;At first I thought futures trading was just a toy for a small group of high‑risk crypto players, while spot was the “mainstream.” After getting involved, I realized I was wrong. In crypto, spot volume is far smaller than futures—futures are the real main force (though most people still trade spot). This “fast lane” lets you feel market turbulence every second. You don’t need to own the asset; you just predict price movements and speculate on the spread. I learned the hard way that in this market, the strongest capital often decides the direction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Futures Trading vs. Gambling: Prediction Markets and Traditional Finance Compared</title>
+      <link>http://localhost:1313/en/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%8E%E8%B5%8C%E5%8D%9A%E6%9C%89%E4%BD%95%E5%8C%BA%E5%88%AB%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E5%92%8C%E4%BC%A0%E7%BB%9F%E9%87%91%E8%9E%8D%E7%9A%84%E6%AF%94%E8%BE%83-171ea51483288007888ec742b4071076/</link>
+      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%8E%E8%B5%8C%E5%8D%9A%E6%9C%89%E4%BD%95%E5%8C%BA%E5%88%AB%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E5%92%8C%E4%BC%A0%E7%BB%9F%E9%87%91%E8%9E%8D%E7%9A%84%E6%AF%94%E8%BE%83-171ea51483288007888ec742b4071076/</guid>
+      <description>&lt;p&gt;Recently, while studying crypto derivatives, I noticed many people ask: &lt;em&gt;Is futures trading basically gambling?&lt;/em&gt; It’s a good question. Futures trading is about predicting price movements, while gambling is betting on uncertain outcomes. They sound similar, but the logic is different. I also encountered prediction markets like &lt;strong&gt;Polymarket&lt;/strong&gt;, which feel related. Below is a quick整理 of the similarities and differences between futures trading, gambling, prediction markets, and traditional financial derivatives.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building a Personal Website: Finding Your Digital Space in a Social Media‑Driven World</title>
+      <link>http://localhost:1313/en/posts/tech/tech_template/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/en/posts/tech/building-a-personal-website-in-a-social-media-driven-world/</guid>
-      <description>&lt;p&gt;In an era dominated by the instantaneous gratification of social media, the notion of creating a personal website might seem, at first glance, like a quaint relic from a bygone digital epoch. Yet, as we wade through the ephemeral streams of TikToks, Tweets, and status updates, the allure of a dedicated digital space — a personal website — becomes increasingly compelling. This blog post embarks on a journey to unravel the ‘Why,’ ‘How,’ and ‘What’ of building a personal website amidst the clamor of social media, with a special lens on the Chinese digital landscape and a global perspective.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/posts/tech/tech_template/</guid>
+      <description>&lt;p&gt;In an era dominated by the instantaneous gratification of social media, the notion of creating a personal website might seem, at first glance, like a quaint relic from a bygone digital epoch. Yet, as we wade through the ephemeral streams of TikToks, Tweets, and status updates, the allure of a dedicated digital space—a personal website—becomes increasingly compelling. This blog post explores the &lt;strong&gt;why&lt;/strong&gt;, &lt;strong&gt;how&lt;/strong&gt;, and &lt;strong&gt;what&lt;/strong&gt; of building a personal website amid the clamor of social media, with a lens on the Chinese digital landscape and a global perspective.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

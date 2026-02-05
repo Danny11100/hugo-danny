@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh/categories/</loc>
-    <lastmod>2026-02-04T23:52:57+08:00</lastmod>
+    <lastmod>2026-02-05T01:28:32+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -42,16 +42,46 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh/tags/cloudflare/</loc>
-    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-05T01:28:32+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/cloudflare/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/cloudflare/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/tags/hugo/</loc>
-    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-05T01:28:32+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/hugo/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/tags/seo/</loc>
-    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-05T01:28:32+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/seo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/seo/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/categories/tech/</loc>
-    <lastmod>2026-02-04T23:52:57+08:00</lastmod>
+    <lastmod>2026-02-05T01:28:32+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -64,10 +94,20 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh/tags/wechat/</loc>
-    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-05T01:28:32+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/wechat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/wechat/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/</loc>
-    <lastmod>2026-02-04T23:52:57+08:00</lastmod>
+    <lastmod>2026-02-05T01:28:32+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -80,61 +120,251 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh/posts/tech/hugo-refresh-notion-style/</loc>
-    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-05T01:28:32+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/tech/hugo-refresh-notion-style/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/tech/hugo-refresh-notion-style/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/categories/life/</loc>
     <lastmod>2026-02-04T23:52:57+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/categories/life/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/posts/life/wx-20260202-ce8791/</loc>
     <lastmod>2026-02-04T23:52:57+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/life/wx-20260202-ce8791/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/life/wx-20260202-ce8791/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/posts/life/wx-20260131-158b99/</loc>
     <lastmod>2026-02-04T23:52:57+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/life/wx-20260131-158b99/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/life/wx-20260131-158b99/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/posts/tech/wx-20260130-80844f/</loc>
     <lastmod>2026-02-04T23:52:57+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/tech/wx-20260130-80844f/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/tech/wx-20260130-80844f/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/posts/tech/ai/</loc>
     <lastmod>2026-02-04T23:52:57+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/tech/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/tech/ai/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/posts/life/wx-20260124-2fc18d/</loc>
     <lastmod>2026-02-04T23:52:57+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/life/wx-20260124-2fc18d/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/life/wx-20260124-2fc18d/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/posts/life/wx-20260120-ee5862/</loc>
     <lastmod>2026-02-04T23:52:57+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/life/wx-20260120-ee5862/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/life/wx-20260120-ee5862/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/posts/life/wx-20260111-1c6c57/</loc>
     <lastmod>2026-02-04T23:52:57+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/life/wx-20260111-1c6c57/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/life/wx-20260111-1c6c57/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/posts/tech/wx-20260110-91fa36/</loc>
     <lastmod>2026-02-04T23:52:57+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/tech/wx-20260110-91fa36/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/tech/wx-20260110-91fa36/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/posts/tech/wx-20260106-fd542b/</loc>
     <lastmod>2026-02-04T23:52:57+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/tech/wx-20260106-fd542b/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/tech/wx-20260106-fd542b/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/posts/life/wx-20260102-a37d32/</loc>
     <lastmod>2026-02-04T23:52:57+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/life/wx-20260102-a37d32/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/life/wx-20260102-a37d32/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/tags/interview/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/interview/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/interview/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/posts/tech/gyg-interview-1/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/tech/gyg-interview-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/tech/gyg-interview-1/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/tags/crypto/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/crypto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/crypto/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/tags/web3/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/web3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/web3/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%AD%E7%9A%84%E9%9F%AD%E8%8F%9C%E5%BF%83%E7%90%86/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%AD%E7%9A%84%E9%9F%AD%E8%8F%9C%E5%BF%83%E7%90%86/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%AD%E7%9A%84%E9%9F%AD%E8%8F%9C%E5%BF%83%E7%90%86/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%8E%E8%B5%8C%E5%8D%9A%E6%9C%89%E4%BD%95%E5%8C%BA%E5%88%AB%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E5%92%8C%E4%BC%A0%E7%BB%9F%E9%87%91%E8%9E%8D%E7%9A%84%E6%AF%94%E8%BE%83-171ea51483288007888ec742b4071076/</loc>
     <lastmod>2025-01-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%8E%E8%B5%8C%E5%8D%9A%E6%9C%89%E4%BD%95%E5%8C%BA%E5%88%AB%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E5%92%8C%E4%BC%A0%E7%BB%9F%E9%87%91%E8%9E%8D%E7%9A%84%E6%AF%94%E8%BE%83-171ea51483288007888ec742b4071076/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%8E%E8%B5%8C%E5%8D%9A%E6%9C%89%E4%BD%95%E5%8C%BA%E5%88%AB%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E5%92%8C%E4%BC%A0%E7%BB%9F%E9%87%91%E8%9E%8D%E7%9A%84%E6%AF%94%E8%BE%83-171ea51483288007888ec742b4071076/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/posts/life/2024/</loc>
     <lastmod>2026-02-04T15:52:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/life/2024/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/life/2024/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/tags/%E5%A4%8D%E7%9B%98/</loc>
     <lastmod>2026-02-04T15:52:52+08:00</lastmod>
@@ -189,6 +419,16 @@
   </url><url>
     <loc>http://localhost:1313/zh/posts/tech/tech_template/</loc>
     <lastmod>2026-02-04T15:52:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/tech/tech_template/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/tech/tech_template/"
+                />
   </url><url>
     <loc>http://localhost:1313/zh/resume/</loc>
     <lastmod>2024-12-29T23:11:35+08:00</lastmod>

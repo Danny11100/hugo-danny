@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Review on Freetime</title>
+    <link>http://localhost:1313/en/tags/review/</link>
+    <description>Recent content in Review on Freetime</description>
+    <image>
+      <title>Freetime</title>
+      <url>http://localhost:1313/img/dannylogo.png</url>
+      <link>http://localhost:1313/img/dannylogo.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>contact@yfreetime.com (Danny Yuan)</managingEditor>
+    <webMaster>contact@yfreetime.com (Danny Yuan)</webMaster>
+    <lastBuildDate>Tue, 31 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 Year-End Review</title>
+      <link>http://localhost:1313/en/posts/life/2024/</link>
+      <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/posts/life/2024/</guid>
+      <description>&lt;h2 id=&#34;about-the-internet-and-blogging&#34;&gt;About the Internet and Blogging&lt;/h2&gt;
+&lt;p&gt;I don’t think I’ve ever documented a year through public writing. Over the past two years, I talked about the “cliche” stories of yesterday, today, and tomorrow via podcast—usually by extracting a few keywords and expanding on them with experiences and reflections. It felt a bit like an essay prompt, but it made year‑end review easier to finish. Still, podcasts are ultimately for entertainment, because the show is made for others.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

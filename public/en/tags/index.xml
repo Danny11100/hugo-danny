@@ -15,6 +15,62 @@
     <webMaster>contact@yfreetime.com (Danny Yuan)</webMaster>
     <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cloudflare</title>
+      <link>http://localhost:1313/en/tags/cloudflare/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/tags/cloudflare/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/en/tags/hugo/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seo</title>
+      <link>http://localhost:1313/en/tags/seo/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/tags/seo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wechat</title>
+      <link>http://localhost:1313/en/tags/wechat/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/tags/wechat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interview</title>
+      <link>http://localhost:1313/en/tags/interview/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/tags/interview/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crypto</title>
+      <link>http://localhost:1313/en/tags/crypto/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/tags/crypto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web3</title>
+      <link>http://localhost:1313/en/tags/web3/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/tags/web3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Review</title>
+      <link>http://localhost:1313/en/tags/review/</link>
+      <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/tags/review/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Vipassana</title>
       <link>http://localhost:1313/en/tags/vipassana/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
@@ -22,10 +78,10 @@
       <description></description>
     </item>
     <item>
-      <title>Tech</title>
-      <link>http://localhost:1313/en/tags/tech/</link>
+      <title>Personal-Website</title>
+      <link>http://localhost:1313/en/tags/personal-website/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
-      <guid>http://localhost:1313/en/tags/tech/</guid>
+      <guid>http://localhost:1313/en/tags/personal-website/</guid>
       <description></description>
     </item>
   </channel>

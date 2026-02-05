@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<meta name="robots" content="noindex, nofollow">
+
+
+<title>
+    
+        Upgrading My Personal Site with Codex: Notion‑Style Layout, SEO, Cloudflare Cache, and WeChat Sync | Freetime
+    
+</title>
+
+<meta name="description" content="
+	">
+
+<meta name="keywords" content="Hugo, Cloudflare Pages, WeChat Official Account, Static Blog">
+<meta name="author" content="Danny Yuan">
+
+
+<link rel="canonical" href="http://localhost:1313/en/posts/tech/hugo-refresh-notion-style/">
+
+<meta property="og:title" content="Upgrading My Personal Site with Codex: Notion‑Style Layout, SEO, Cloudflare Cache, and WeChat Sync" />
+<meta property="og:description" content="
+	" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/en/posts/tech/hugo-refresh-notion-style/" />
+<meta property="og:site_name" content="Freetime" />
+<meta property="og:locale" content="en" />
+<meta property="og:locale:alternate" content="en" />
+<meta property="og:locale:alternate" content="zh" /><meta property="og:image" content="http://localhost:1313/img/dannylogo.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2026-02-04T00:00:00+00:00" />
+<meta property="article:modified_time" content="2026-02-04T00:00:00+00:00" /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://localhost:1313/img/dannylogo.png"/><meta name="twitter:title" content="Upgrading My Personal Site with Codex: Notion‑Style Layout, SEO, Cloudflare Cache, and WeChat Sync"/>
+<meta name="twitter:description" content="
+	"/>
+<script type="application/ld+json">"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"http://localhost:1313/en/\",\"name\":\"Freetime\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"http://localhost:1313/en/posts/\",\"name\":\"📝 Blogs\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"http://localhost:1313/en/posts/tech/\",\"name\":\"💻 Tech\",\"position\":3},{\"@type\":\"ListItem\",\"item\":\"http://localhost:1313/en/posts/tech/hugo-refresh-notion-style/\",\"name\":\"Upgrading My Personal Site with Codex: Notion‑Style Layout, SEO, Cloudflare Cache, and WeChat Sync\",\"position\":4}]}"</script><script type="application/ld+json">"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"articleSection\":\"posts\",\"author\":{\"@type\":\"Person\",\"name\":\"Danny Yuan\"},\"dateModified\":\"2026-02-04T00:00:00+00:00\",\"datePublished\":\"2026-02-04T00:00:00+00:00\",\"description\":\"\\n\\t\",\"headline\":\"Upgrading My Personal Site with Codex: Notion‑Style Layout, SEO, Cloudflare Cache, and WeChat Sync\",\"image\":[\"http://localhost:1313/img/dannylogo.png\"],\"inLanguage\":\"en\",\"keywords\":[\"Hugo\",\"Cloudflare Pages\",\"WeChat Official Account\",\"Static Blog\"],\"mainEntityOfPage\":{\"@id\":\"http://localhost:1313/en/posts/tech/hugo-refresh-notion-style/\",\"@type\":\"WebPage\"},\"name\":\"Upgrading My Personal Site with Codex: Notion‑Style Layout, SEO, Cloudflare Cache, and WeChat Sync\",\"publisher\":{\"@type\":\"Person\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"http://localhost:1313/img/dannylogo.png\"},\"name\":\"Freetime\"},\"wordCount\":680}"</script>
+
+
+
+
+
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.28a4174f3fe586e00f365b485419d4c6c1fa5937188625b689d8f8805e1c30ac.css" integrity="sha256-KKQXTz/lhuAPNltIVBnUxsH6WTcYhiW2idj4gF4cMKw=" rel="preload stylesheet" as="style">
+
+
+
+
+<link rel="icon" href="http://localhost:1313/img/dannylogo.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/img/dannylogo.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/img/dannylogo.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/img/dannylogo.png">
+<link rel="mask-icon" href="http://localhost:1313/img/dannylogo.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+
+
+
+<link rel="alternate" hreflang="en" href="http://localhost:1313/en/posts/tech/hugo-refresh-notion-style/"><link rel="alternate" hreflang="zh" href="http://localhost:1313/zh/posts/tech/hugo-refresh-notion-style/">
+<link rel="alternate" hreflang="x-default" href="http://localhost:1313/en/">
+
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+</noscript>
+<link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+<link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+
+<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/code-new-roman">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap">
+
+
+</head><body id="top">
+
+
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark');
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+</script>
+
+
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            
+            
+            
+            <a href="http://localhost:1313/en/" accesskey="h" title="Freetime (Alt + H)">
+                
+                <span>Freetime</span>
+            </a>
+            
+            <div class="logo-switches">
+                
+                
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" type="button">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                
+
+                
+                
+                
+                <ul class="lang-switch">
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="http://localhost:1313/zh/" title="CN" aria-label="CN">
+                            CN
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+                
+            </div>
+        </div>
+        
+        <ul id="menu" class="menu">
+            
+            <li>
+                <a href="http://localhost:1313/en/posts/" title="Blogs">
+                    <span >
+                        Blogs
+                    </span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="http://localhost:1313/en/archives/" title="Timeline">
+                    <span >
+                        Timeline
+                    </span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="http://localhost:1313/en/tags/" title="Tags">
+                    <span >
+                        Tags
+                    </span>
+                </a>
+            </li>
+            
+        </ul>
+
+        
+        <button id="menu-toggle" class="hamburger-menu" type="button" aria-controls="menu" aria-expanded="false" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    
+
+    
+    <h1 class="post-title entry-hint-parent">
+      Upgrading My Personal Site with Codex: Notion‑Style Layout, SEO, Cloudflare Cache, and WeChat Sync
+    </h1>
+
+    
+    <div class="post-description">
+      A full pipeline refresh of my Hugo blog: Notion/Substack‑style typography, TOC sidebar, SEO, CSS cache busting, and WeChat article import.
+    </div>
+
+    
+    <div class="post-meta"><span title='2026-02-04 00:00:00 +0000 UTC'>February 4, 2026</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Danny Yuan&nbsp;|&nbsp;Translations:
+<ul class="i18n_list">
+    <li>
+        <a href="http://localhost:1313/zh/posts/tech/hugo-refresh-notion-style/">Zh</a>
+    </li>
+</ul>
+
+      
+      <div class="meta-item">&nbsp·&nbsp
+        <span id="busuanzi_container_page_pv">Views:<span id="busuanzi_value_page_pv"></span></span>
+      </div>
+    </div>
+
+    
+    <hr class="post-divider">
+  </header>
+
+   
+
+  
+  <div class="post-toc"><div class="toc">
+        <details  open>
+            <summary accesskey="c" title="(Alt + C)">
+                <span class="details">Table of Contents</span>
+            </summary>
+
+            <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#goals">Goals</a></li>
+    <li><a href="#phase-1-make-local-build-work">Phase 1: Make Local Build Work</a></li>
+    <li><a href="#phase-2-ui--reading-experience-notionsubstack">Phase 2: UI &amp; Reading Experience (Notion/Substack)</a></li>
+    <li><a href="#phase-3-toc-sidebar">Phase 3: TOC Sidebar</a></li>
+    <li><a href="#phase-4-seo--structure">Phase 4: SEO &amp; Structure</a></li>
+    <li><a href="#phase-5-deployment--cache-cloudflare-pages--custom-domain">Phase 5: Deployment &amp; Cache (Cloudflare Pages + Custom Domain)</a></li>
+    <li><a href="#phase-6-cleaner-urls-slug--aliases">Phase 6: Cleaner URLs (slug + aliases)</a></li>
+    <li><a href="#phase-7-batch-import-wechat-articles">Phase 7: Batch Import WeChat Articles</a></li>
+    <li><a href="#todays-output-checklist">Today’s Output Checklist</a></li>
+  </ul>
+</nav>
+            </div>
+        </details>
+    </div>
+
+  </div>
+
+  
+  <div class="post-content"><p>My personal website hadn’t been updated for a long time. I spent half a day polishing it from “barely usable” to “something I’m willing to write on long‑term”: Notion/Substack‑like typography, a much better TOC sidebar, stronger SEO and structure, fewer deployment/cache nightmares, and a batch sync from WeChat to my site.</p>
+<p>Below is a reusable record of the key actions, for my future self and for anyone who’s also tinkering.</p>
+<h2 id="goals">Goals<a hidden class="anchor" aria-hidden="true" href="#goals">#</a></h2>
+<ol>
+<li><strong>Writing &amp; reading experience</strong>: better fonts, sizes, line height, spacing—close to Notion/Substack.</li>
+<li><strong>Usable TOC</strong>: doesn’t steal content width, fixed on the right on desktop; hidden on mobile; no empty TOC when there are no headings.</li>
+<li><strong>Stable deployment</strong>: local preview OK, online release predictable; style updates no longer “luck‑based.”</li>
+<li><strong>Efficient content sync</strong>: batch import WeChat posts by time range, localize images, avoid broken external links.</li>
+</ol>
+<h2 id="phase-1-make-local-build-work">Phase 1: Make Local Build Work<a hidden class="anchor" aria-hidden="true" href="#phase-1-make-local-build-work">#</a></h2>
+<p>First, eliminate the “<code>hugo server</code> throws errors immediately” problem so local preview is stable.</p>
+<p>Key idea: <strong>local Hugo version may differ from Cloudflare’s build environment</strong>. Newer template functions can fail on older versions in the cloud.</p>
+<p>Two fixes:</p>
+<ol>
+<li>Make templates compatible across Hugo versions (avoid too‑new functions).</li>
+<li>Pin <code>HUGO_VERSION</code> in Cloudflare Pages to match local, reducing environment drift.</li>
+</ol>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image.png" alt="image.png" width="1476" height="1256" />
+</p>
+<h2 id="phase-2-ui--reading-experience-notionsubstack">Phase 2: UI &amp; Reading Experience (Notion/Substack)<a hidden class="anchor" aria-hidden="true" href="#phase-2-ui--reading-experience-notionsubstack">#</a></h2>
+<p>This was mostly CSS and layout tweaks. The goal was simple: <strong>make it read like an article, not like a web page</strong>.</p>
+<p>Notable changes:</p>
+<ul>
+<li><strong>Unified Chinese/English typography</strong>: adjust base font size, line height, heading spacing so both languages feel relaxed.</li>
+<li><strong>Image experience</strong>: more vertical breathing room, consistent subtle rounding; cover images handled separately because many themes don’t style them through <code>.post-content</code>.</li>
+<li><strong>Mobile nav button fix</strong>: replace the odd horizontal bar with a standard hamburger (stacked), consistent size and alignment.</li>
+</ul>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-1.png" alt="image.png" width="2412" height="828" />
+</p>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-2.png" alt="image.png" width="1908" height="2160" />
+</p>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-3.png" alt="image.png" width="1532" height="1546" />
+</p>
+<h2 id="phase-3-toc-sidebar">Phase 3: TOC Sidebar<a hidden class="anchor" aria-hidden="true" href="#phase-3-toc-sidebar">#</a></h2>
+<p>Switching the TOC from a “big block eating content width” to a “floating right‑side component” improved reading flow.</p>
+<p>Approach:</p>
+<ol>
+<li><strong>Desktop</strong>: fixed on the right, doesn’t squeeze content, default expanded.</li>
+<li><strong>Mobile</strong>: hidden (too dense for small screens).</li>
+<li><strong>No empty TOC</strong>: if there are no valid headings (or TableOfContents is empty), don’t render the TOC container.</li>
+</ol>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-4.png" alt="image.png" width="1908" height="2160" />
+</p>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-5.png" alt="image.png" width="1602" height="1220" />
+</p>
+<h2 id="phase-4-seo--structure">Phase 4: SEO &amp; Structure<a hidden class="anchor" aria-hidden="true" href="#phase-4-seo--structure">#</a></h2>
+<p>Static‑site SEO isn’t magic—it’s about completing structured data.</p>
+<p>I added the common basics:</p>
+<ol>
+<li><code>title / description / canonical</code></li>
+<li>OpenGraph and Twitter Cards</li>
+<li>JSON‑LD Schema (Article, Breadcrumb, etc.)</li>
+<li>robots strategy (allow index in prod; noindex in non‑prod)</li>
+</ol>
+<h2 id="phase-5-deployment--cache-cloudflare-pages--custom-domain">Phase 5: Deployment &amp; Cache (Cloudflare Pages + Custom Domain)<a hidden class="anchor" aria-hidden="true" href="#phase-5-deployment--cache-cloudflare-pages--custom-domain">#</a></h2>
+<p>The most “mystical” part was cache: <strong>pages.dev updated, but the custom domain stayed old</strong>.</p>
+<p>Two‑step fix:</p>
+<ul>
+<li><strong>Confirm origin updated</strong>: check <code>*.pages.dev</code>; if that’s new, build is fine.</li>
+<li><strong>Handle custom domain cache</strong>: Purge Cache in Cloudflare; more importantly, make CSS auto‑refresh.</li>
+</ul>
+<p>I ended up using <strong>CSS fingerprinting</strong>: each build generates a hashed CSS filename; HTML references change, so the CDN can’t reuse old caches.</p>
+<p>One‑line summary: <strong>don’t argue with cache—change the URL and it must refresh.</strong></p>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-6.png" alt="image.png" width="1908" height="2160" />
+</p>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-7.png" alt="image.png" width="1908" height="2160" />
+</p>
+<h2 id="phase-6-cleaner-urls-slug--aliases">Phase 6: Cleaner URLs (slug + aliases)<a hidden class="anchor" aria-hidden="true" href="#phase-6-cleaner-urls-slug--aliases">#</a></h2>
+<p>Chinese URLs get encoded (e.g. <code>%E9%9D%A2%E8%AF%95</code>). It works but isn’t pretty.</p>
+<p>My approach:</p>
+<ol>
+<li>New posts always set <code>slug</code> (short English links).</li>
+<li>Old links preserved via <code>aliases</code> redirects.</li>
+</ol>
+<p>Example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#d7827e">slug</span><span style="color:#797593">:</span> <span style="color:#ea9d34">gyg-interview-1</span>
+</span></span><span style="display:flex;"><span><span style="color:#d7827e">aliases</span><span style="color:#797593">:</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#ea9d34">/zh/posts/tech/gyg%E9%9D%A2%E8%AF%951/</span>
+</span></span></code></pre></div><p>New links look clean; old ones won’t 404.</p>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-8.png" alt="image.png" width="1908" height="2160" />
+</p>
+<h2 id="phase-7-batch-import-wechat-articles">Phase 7: Batch Import WeChat Articles<a hidden class="anchor" aria-hidden="true" href="#phase-7-batch-import-wechat-articles">#</a></h2>
+<p>This was the main problem: WeChat had content, but the personal site was stale.</p>
+<p>My flow:</p>
+<ol>
+<li>Collect a list of WeChat article links within a time range.</li>
+<li>Local script fetches content into <code>content/Chinese/posts/...</code>.</li>
+<li>Auto‑set WeChat cover as Hugo <code>cover</code>.</li>
+<li>Download images to <code>static/wechat/&lt;slug&gt;/</code> and replace external links with local paths (avoid the “image from WeChat platform” watermark).</li>
+<li>Deduplicate: remove the first import without images, keep the localized version.</li>
+</ol>
+<p>Now future WeChat updates are one‑click sync: drop links into the list and run the script.</p>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-9.png" alt="image.png" width="1908" height="2160" />
+</p>
+<h2 id="todays-output-checklist">Today’s Output Checklist<a hidden class="anchor" aria-hidden="true" href="#todays-output-checklist">#</a></h2>
+<ol>
+<li>Local preview and build stable</li>
+<li>UI typography closer to Notion/Substack</li>
+<li>TOC floating sidebar + mobile hidden + empty TOC suppressed</li>
+<li>Fixed Cloudflare custom‑domain cache showing old styles</li>
+<li>CSS auto‑refresh (fingerprint)</li>
+<li><code>slug</code> + <code>aliases</code> for clean URLs with backward compatibility</li>
+<li>WeChat batch import + image localization + dedupe + category clean‑up</li>
+</ol>
+<p>All of this was done by talking to Codex in natural language—no code written by hand.</p>
+<p>Visit the site: <a href="https://yfreetime.com/">https://yfreetime.com/</a></p>
+<p><img loading="lazy" decoding="async" src="/notion/hugo-refresh-notion-style/image-10.png" alt="image.png" width="692" height="1552" />
+</p>
+
+
+  </div>
+
+  
+  
+
+  <footer class="post-footer">
+    
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/en/tags/hugo/">Hugo</a></li>
+      <li><a href="http://localhost:1313/en/tags/cloudflare/">Cloudflare</a></li>
+      <li><a href="http://localhost:1313/en/tags/wechat/">Wechat</a></li>
+      <li><a href="http://localhost:1313/en/tags/seo/">Seo</a></li>
+    </ul>
+
+    
+
+    
+
+    
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>
+        &copy;
+        2026
+        <a href="https://yfreetime.com/" rel="noopener noreferrer" target="_blank">Danny's Blog</a>
+<span class="busuanzi-footer">
+  <span id="busuanzi_container_site_pv">
+    Views: <span id="busuanzi_value_site_pv"></span>
+  </span>
+  <span id="busuanzi_container_site_uv">
+    Visitors: <span id="busuanzi_value_site_uv"></span>
+  </span>
+</span>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    </span>
+    
+
+
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    const menuToggle = document.getElementById('menu-toggle');
+    if (menu && menuToggle) {
+        menuToggle.addEventListener('click', () => {
+            const isOpen = menu.classList.toggle('open');
+            menuToggle.setAttribute('aria-expanded', String(isOpen));
+        });
+        menu.querySelectorAll('a').forEach((link) => {
+            link.addEventListener('click', () => {
+                if (menu.classList.contains('open')) {
+                    menu.classList.remove('open');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

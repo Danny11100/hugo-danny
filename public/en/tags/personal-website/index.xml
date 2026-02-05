@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Personal-Website on Freetime</title>
+    <link>http://localhost:1313/en/tags/personal-website/</link>
+    <description>Recent content in Personal-Website on Freetime</description>
+    <image>
+      <title>Freetime</title>
+      <url>http://localhost:1313/img/dannylogo.png</url>
+      <link>http://localhost:1313/img/dannylogo.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>contact@yfreetime.com (Danny Yuan)</managingEditor>
+    <webMaster>contact@yfreetime.com (Danny Yuan)</webMaster>
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/personal-website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Personal Website: Finding Your Digital Space in a Social Media‑Driven World</title>
+      <link>http://localhost:1313/en/posts/tech/tech_template/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/posts/tech/tech_template/</guid>
+      <description>&lt;p&gt;In an era dominated by the instantaneous gratification of social media, the notion of creating a personal website might seem, at first glance, like a quaint relic from a bygone digital epoch. Yet, as we wade through the ephemeral streams of TikToks, Tweets, and status updates, the allure of a dedicated digital space—a personal website—becomes increasingly compelling. This blog post explores the &lt;strong&gt;why&lt;/strong&gt;, &lt;strong&gt;how&lt;/strong&gt;, and &lt;strong&gt;what&lt;/strong&gt; of building a personal website amid the clamor of social media, with a lens on the Chinese digital landscape and a global perspective.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
