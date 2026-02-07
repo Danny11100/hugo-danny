@@ -11,6 +11,7 @@
     --accent: #647f75;
     --radius: 14px;
     --gap: 24px;
+    --card-pad: clamp(24px, 2.6vw, 36px);
     --main-width: 1040px;
     --reading-width: 860px;
     --header-height: 70px;
@@ -302,7 +303,19 @@ code {
 .first-entry,
 .home-info {
     min-height: 292px;
-    padding: clamp(24px, 3vw, 40px);
+    padding: var(--card-pad);
+}
+
+.home-info .entry-header,
+.home-info .entry-content,
+.home-info .entry-footer,
+.first-entry .post-info {
+    width: min(100%, var(--reading-width));
+}
+
+.home-info .entry-header h1,
+.first-entry .entry-header h1 {
+    margin: 0;
 }
 
 .first-entry .entry-header h1 {
@@ -340,7 +353,7 @@ code {
     display: flex;
     align-items: flex-start;
     gap: 24px;
-    padding: clamp(20px, 2.2vw, 30px);
+    padding: var(--card-pad);
     margin-bottom: 18px;
 }
 
@@ -362,6 +375,9 @@ code {
     font-size: clamp(1.5rem, 2.35vw, 1.96rem);
     line-height: 1.28;
     letter-spacing: -0.01em;
+    text-wrap: pretty;
+    overflow-wrap: anywhere;
+    word-break: normal;
 }
 
 .entry-content {
@@ -521,6 +537,16 @@ code {
     font-size: clamp(2.12rem, 3.45vw, 3rem);
     line-height: 1.18;
     letter-spacing: -0.015em;
+    text-wrap: pretty;
+    overflow-wrap: anywhere;
+    word-break: normal;
+}
+
+html[lang="zh"] .post-title,
+html[lang="zh"] .entry-header h2,
+html[lang="zh"] .home-info .entry-header h1,
+html[lang="zh"] .first-entry .entry-header h1 {
+    word-break: keep-all;
 }
 
 .post-divider {
@@ -877,7 +903,7 @@ body.dark .post-content a {
     .post-entry {
         flex-direction: column;
         gap: 14px;
-        padding: 16px;
+        padding: 18px;
     }
 
     .entry-cover {
@@ -892,7 +918,7 @@ body.dark .post-content a {
     .first-entry,
     .home-info {
         min-height: 238px;
-        padding: 20px;
+        padding: 22px 20px;
     }
 
     .main {
@@ -968,6 +994,11 @@ body.dark .post-content a {
 
     .main {
         padding-inline: 14px;
+    }
+
+    .first-entry,
+    .home-info {
+        padding: 20px 18px;
     }
 
     .post-title {
