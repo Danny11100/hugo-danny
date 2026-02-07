@@ -11,11 +11,11 @@
     --accent: #647f75;
     --radius: 14px;
     --gap: 24px;
-    --main-width: 920px;
-    --reading-width: 748px;
-    --nav-width: 1160px;
-    --header-height: 74px;
+    --main-width: 1020px;
+    --reading-width: 900px;
+    --header-height: 70px;
     --toc-width: 248px;
+    --toc-top-gap: 42px;
     --code-bg: #f0f1ef;
     --code-block-bg: #f0f1ef;
 }
@@ -84,13 +84,15 @@ code {
 }
 
 .nav {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
     align-items: center;
-    justify-content: space-between;
-    max-width: var(--nav-width);
+    column-gap: clamp(14px, 1.8vw, 24px);
+    width: 100%;
+    max-width: calc(var(--main-width) + var(--gap) * 2);
     margin: 0 auto;
     min-height: var(--header-height);
-    padding: 0 clamp(18px, 3vw, 30px);
+    padding: 0 var(--gap);
     line-height: 1;
 }
 
@@ -103,16 +105,16 @@ code {
 }
 
 .logo a span {
-    font-size: clamp(1.88rem, 2vw, 2.28rem);
-    font-weight: 730;
-    letter-spacing: -0.014em;
+    font-size: clamp(1.68rem, 1.76vw, 1.92rem);
+    font-weight: 700;
+    letter-spacing: -0.012em;
     color: var(--primary);
 }
 
 .logo-switches {
     display: inline-flex;
     align-items: center;
-    gap: 11px;
+    gap: 10px;
 }
 
 #theme-toggle {
@@ -144,8 +146,8 @@ code {
 
 .lang-switch a {
     color: var(--secondary);
-    font-size: 1.14rem;
-    font-weight: 620;
+    font-size: 1.08rem;
+    font-weight: 610;
     letter-spacing: 0.01em;
     text-decoration: none;
 }
@@ -153,10 +155,12 @@ code {
 #menu {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    justify-self: end;
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 34px;
+    gap: clamp(22px, 2vw, 34px);
 }
 
 #menu li {
@@ -165,8 +169,8 @@ code {
 }
 
 #menu a {
-    font-size: 1.18rem;
-    font-weight: 560;
+    font-size: 1.04rem;
+    font-weight: 550;
     letter-spacing: 0.01em;
     color: var(--secondary);
     text-decoration: none;
@@ -257,8 +261,8 @@ code {
 
 .first-entry .entry-header h1 {
     font-family: "Iowan Old Style", "Palatino Linotype", "Times New Roman", "Songti SC", "Noto Serif SC", serif;
-    font-size: clamp(2.35rem, 5.6vw, 3.5rem);
-    line-height: 1.14;
+    font-size: clamp(2.2rem, 4.8vw, 3.08rem);
+    line-height: 1.18;
     letter-spacing: -0.018em;
 }
 
@@ -309,8 +313,8 @@ code {
 .entry-header h2 {
     margin: 0 0 14px;
     font-family: "Iowan Old Style", "Palatino Linotype", "Times New Roman", "Songti SC", "Noto Serif SC", serif;
-    font-size: clamp(1.72rem, 2.95vw, 2.42rem);
-    line-height: 1.2;
+    font-size: clamp(1.64rem, 2.6vw, 2.2rem);
+    line-height: 1.24;
     letter-spacing: -0.012em;
 }
 
@@ -459,7 +463,7 @@ code {
     position: relative;
     width: 100%;
     max-width: var(--reading-width);
-    margin: 0 auto;
+    margin: 0;
 }
 
 .post-header {
@@ -468,9 +472,9 @@ code {
 
 .post-title {
     font-family: "Iowan Old Style", "Palatino Linotype", "Times New Roman", "Songti SC", "Noto Serif SC", serif;
-    font-size: clamp(2.18rem, 3.9vw, 3.35rem);
-    line-height: 1.12;
-    letter-spacing: -0.016em;
+    font-size: clamp(2.02rem, 3.3vw, 2.86rem);
+    line-height: 1.16;
+    letter-spacing: -0.012em;
 }
 
 .post-divider {
@@ -480,8 +484,8 @@ code {
 }
 
 .post-content {
-    font-size: clamp(1.06rem, 1.32vw, 1.16rem);
-    line-height: 1.7;
+    font-size: clamp(1.08rem, 1.26vw, 1.16rem);
+    line-height: 1.78;
     color: var(--content);
 }
 
@@ -490,7 +494,7 @@ code {
 .post-content ol,
 .post-content blockquote,
 .post-content figure {
-    margin: 0 0 1.24em;
+    margin: 0 0 1.36em;
 }
 
 .post-content h2,
@@ -502,17 +506,17 @@ code {
 }
 
 .post-content h2 {
-    margin: 1.62em 0 0.58em;
+    margin: 1.74em 0 0.62em;
     font-family: "Iowan Old Style", "Palatino Linotype", "Times New Roman", "Songti SC", "Noto Serif SC", serif;
     font-size: clamp(1.74rem, 2.78vw, 2.28rem);
-    line-height: 1.28;
+    line-height: 1.3;
 }
 
 .post-content h3 {
-    margin: 1.35em 0 0.52em;
+    margin: 1.46em 0 0.56em;
     font-family: "Iowan Old Style", "Palatino Linotype", "Times New Roman", "Songti SC", "Noto Serif SC", serif;
     font-size: clamp(1.46rem, 2.28vw, 1.82rem);
-    line-height: 1.32;
+    line-height: 1.34;
 }
 
 .post-content h4 {
@@ -677,31 +681,7 @@ code {
     border: 0;
 }
 
-@media (min-width: 1200px) {
-    .post-single.has-toc {
-        padding-right: calc(var(--toc-width) + 28px);
-    }
-
-    .post-single.has-toc .post-toc {
-        display: block;
-        position: fixed;
-        right: max(20px, calc((100vw - (var(--main-width) + var(--toc-width) + var(--gap) * 3)) / 2));
-        top: calc(var(--header-height) + 26px);
-        width: var(--toc-width);
-        max-height: calc(100vh - var(--header-height) - 38px);
-        z-index: 25;
-    }
-
-    .post-single.has-toc .post-toc .toc {
-        margin-top: 0;
-    }
-
-    .post-single.has-toc .post-toc .toc .inner {
-        max-height: calc(100vh - var(--header-height) - 92px);
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) {
     .post-single.has-toc {
         padding-right: 0;
     }
@@ -711,7 +691,7 @@ code {
         position: static;
         width: 100%;
         max-height: none;
-        margin: 0 0 1.6rem;
+        margin: 0 0 1.8rem;
     }
 
     .post-single.has-toc .post-toc .toc {
@@ -719,7 +699,7 @@ code {
     }
 
     .post-single.has-toc .post-toc .toc .inner {
-        max-height: 50vh;
+        max-height: 52vh;
     }
 }
 
@@ -773,12 +753,11 @@ body.dark .post-content a {
 
 @media (max-width: 900px) {
     .nav {
-        display: grid;
         grid-template-columns: minmax(0, 1fr) auto;
         align-items: center;
         row-gap: 12px;
         min-height: var(--header-height);
-        padding: 10px 16px;
+        padding: 10px 14px;
     }
 
     .logo {
@@ -788,11 +767,11 @@ body.dark .post-content a {
     }
 
     .logo a span {
-        font-size: clamp(1.64rem, 7.4vw, 2.08rem);
+        font-size: clamp(1.44rem, 6.5vw, 1.82rem);
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        max-width: 56vw;
+        max-width: 58vw;
     }
 
     .logo-switches {
@@ -801,7 +780,7 @@ body.dark .post-content a {
 
     .lang-switch a,
     #menu a {
-        font-size: 1.12rem;
+        font-size: 1.04rem;
     }
 
     #menu {
@@ -812,7 +791,7 @@ body.dark .post-content a {
         flex-direction: column;
         align-items: flex-start;
         gap: 8px;
-        padding: 12px 14px;
+        padding: 12px 16px;
         border: 1px solid color-mix(in srgb, var(--border) 90%, #ffffff 10%);
         border-radius: 14px;
         background: var(--entry);
@@ -845,8 +824,8 @@ body.dark .post-content a {
         grid-row: 1;
         justify-self: end;
         margin-left: 0;
-        width: 50px;
-        height: 50px;
+        width: 48px;
+        height: 48px;
     }
 
     .post-entry {
@@ -876,7 +855,7 @@ body.dark .post-content a {
 
     .post-content {
         font-size: 1.02rem;
-        line-height: 1.7;
+        line-height: 1.74;
     }
 
     .post-header {
@@ -884,8 +863,8 @@ body.dark .post-content a {
     }
 
     .post-title {
-        font-size: clamp(1.95rem, 8.5vw, 2.45rem);
-        line-height: 1.16;
+        font-size: clamp(1.82rem, 7.5vw, 2.22rem);
+        line-height: 1.18;
     }
 
     .post-meta {
@@ -946,9 +925,9 @@ body.dark .post-content a {
     }
 
     .post-title {
-        font-size: clamp(1.72rem, 8.2vw, 2.04rem);
-        line-height: 1.18;
-        letter-spacing: -0.008em;
+        font-size: clamp(1.64rem, 7.4vw, 1.94rem);
+        line-height: 1.2;
+        letter-spacing: -0.006em;
     }
 
     .entry-content {
@@ -957,7 +936,7 @@ body.dark .post-content a {
 
     .post-content {
         font-size: 1rem;
-        line-height: 1.68;
+        line-height: 1.72;
     }
 
     .post-content p,
