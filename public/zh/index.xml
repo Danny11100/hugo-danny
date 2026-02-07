@@ -13,8 +13,15 @@
     <language>zh</language>
     <managingEditor>contact@yfreetime.com (Danny Yuan)</managingEditor>
     <webMaster>contact@yfreetime.com (Danny Yuan)</webMaster>
-    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>直觉的力量：从 howmuch.tax 看全球税收的时间成本</title>
+      <link>http://localhost:1313/zh/posts/observation/howmuch.tax/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/zh/posts/observation/howmuch.tax/</guid>
+      <description>&lt;p&gt;很多时候，让人真正产生思考的，并不一定是更复杂的数据模型，而是一种更容易被感知的表达方式。最近关注到的 &lt;a href=&#34;https://www.howmuch.tax/&#34;&gt;howmuch.tax&lt;/a&gt; 这个网站给我的感受正是如此。这个网站从域名到创意再到设计都是极佳的学习案例。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>用 Codex把个人网站升级：排版、SEO、Cloudflare 缓存与公众号同步</title>
       <link>http://localhost:1313/zh/posts/tech/hugo-refresh-notion-style/</link>

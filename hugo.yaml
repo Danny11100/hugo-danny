@@ -41,7 +41,8 @@ languages:
         weight: 30
     params:
       defaultTheme: auto
-      summaryLength: 140
+      summaryLength: 120
+      DateFormat: "Jan 02, 2006"
       goatcounter: "jingyiwu-codespace"
       ShowToc: true
       TocOpen: true
@@ -102,7 +103,8 @@ languages:
       ShowToc: true
       TocOpen: true
       comments: true
-      summaryLength: 140
+      summaryLength: 120
+      DateFormat: "2006.01.02"
       goatcounter: "jingyiwu-codespace"
       assets:
         favicon: "img/dannylogo.png"
@@ -145,11 +147,12 @@ minify:
 # 注释掉的服务（未来可能使用）
 services:
   googleAnalytics:
-    ID: "G-GN3ZFPH678"
+    ID: "G-ZRJMWVP315"
 
 params:
   description: "Danny's Digital Garden."
   UseHugoToc: true
+  disableScrollToTop: true
   author:
     name: "Danny Yuan"
     email: "contact@yfreetime.com"

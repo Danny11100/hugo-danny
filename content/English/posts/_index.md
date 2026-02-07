@@ -1,4 +1,4 @@
 ---
-title: "📝 Blogs"
+title: "Blogs"
 ShowWordCounts: false
 ---

@@ -13,8 +13,20 @@
     <language>en</language>
     <managingEditor>contact@yfreetime.com (Danny Yuan)</managingEditor>
     <webMaster>contact@yfreetime.com (Danny Yuan)</webMaster>
-    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Power of Intuition: How howmuch.tax Turns Taxes into Time</title>
+      <link>http://localhost:1313/en/posts/observation/howmuch.tax/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/en/posts/observation/howmuch.tax/</guid>
+      <description>&lt;p&gt;Often, what truly makes you think isn’t a more complex model—it’s a more &lt;em&gt;perceivable&lt;/em&gt; way to express reality. Recently I ran into &lt;a href=&#34;https://www.howmuch.tax/&#34;&gt;howmuch.tax&lt;/a&gt;, and it instantly became one of those “great case studies” from domain name to concept to design.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; src=&#34;http://localhost:1313/notion/howmuch.tax/image.png&#34; alt=&#34;&#34; width=&#34;1200&#34; height=&#34;675&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; src=&#34;http://localhost:1313/notion/howmuch.tax/image-1.png&#34; alt=&#34;&#34; width=&#34;846&#34; height=&#34;1256&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;It doesn’t try to explain the history of every tax code, nor does it push a moral stance. It simply asks a brutally intuitive question that pulls attention back to the individual:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Upgrading My Personal Site with Codex: Notion‑Style Layout, SEO, Cloudflare Cache, and WeChat Sync</title>
       <link>http://localhost:1313/en/posts/tech/hugo-refresh-notion-style/</link>

@@ -42,7 +42,7 @@
 
 
 
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.28a4174f3fe586e00f365b485419d4c6c1fa5937188625b689d8f8805e1c30ac.css" integrity="sha256-KKQXTz/lhuAPNltIVBnUxsH6WTcYhiW2idj4gF4cMKw=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.7848c492183aa3270ee729611434a16c593210cc28e18dfb67a857b091571acd.css" integrity="sha256-eEjEkhg6oycO5ylhFDShbFkyEMwo4Y37Z6hXsJFXGs0=" rel="preload stylesheet" as="style">
 
 
 
@@ -69,14 +69,12 @@
         }
     </style>
 </noscript>
-<link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
 <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
 
-<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/code-new-roman">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap">
 
 
 </head><body class="list" id="top">
@@ -194,11 +192,8 @@
       <h2 class="entry-hint-parent">The “Retail Leek” Psychology in Futures Trading
       </h2>
     </header>
-    <div class="entry-content">
-      <p>At first I thought futures trading was just a toy for a small group of high‑risk crypto players, while spot was the “mainstream.” After getting involved, I realized I was wrong. In crypto, spot volume is far smaller than futures—futures are the real main force (though most people still trade spot). This “fast lane” lets you feel market turbulence every second. You don’t need to own the asset; you just predict price movements and speculate on the spread. I learned the hard way that in this market, the strongest capital often decides the direction.
-...</p>
-    </div>
-    <footer class="entry-footer"><span title='2025-01-06 00:00:00 +0000 UTC'>January 6, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Danny Yuan</footer>
+    <div class="entry-content">At first I thought futures trading was just a toy for a small group of high‑risk crypto players, while spot was the “mainstream.” After getting involved, I realized I was wrong. In crypto, spot volume is far smaller than</div>
+    <footer class="entry-footer"><span title='2025-01-06 00:00:00 +0000 UTC'>Jan 06, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Danny Yuan</footer>
   </div> 
   <a class="entry-link" aria-label="post link to The “Retail Leek” Psychology in Futures Trading" href="http://localhost:1313/en/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%AD%E7%9A%84%E9%9F%AD%E8%8F%9C%E5%BF%83%E7%90%86/"></a>
 </article><article class="post-entry tag-entry">
@@ -208,11 +203,8 @@
       <h2 class="entry-hint-parent">Futures Trading vs. Gambling: Prediction Markets and Traditional Finance Compared
       </h2>
     </header>
-    <div class="entry-content">
-      <p>Recently, while studying crypto derivatives, I noticed many people ask: Is futures trading basically gambling? It’s a good question. Futures trading is about predicting price movements, while gambling is betting on uncertain outcomes. They sound similar, but the logic is different. I also encountered prediction markets like Polymarket, which feel related. Below is a quick整理 of the similarities and differences between futures trading, gambling, prediction markets, and traditional financial derivatives.
-...</p>
-    </div>
-    <footer class="entry-footer"><span title='2025-01-04 00:00:00 +0000 UTC'>January 4, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Danny Yuan</footer>
+    <div class="entry-content">Recently, while studying crypto derivatives, I noticed many people ask: Is futures trading basically gambling? It’s a good question. Futures trading is about predicting price movements, while gambling is betting on uncer</div>
+    <footer class="entry-footer"><span title='2025-01-04 00:00:00 +0000 UTC'>Jan 04, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Danny Yuan</footer>
   </div> 
   <a class="entry-link" aria-label="post link to Futures Trading vs. Gambling: Prediction Markets and Traditional Finance Compared" href="http://localhost:1313/en/posts/tech/%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93%E4%B8%8E%E8%B5%8C%E5%8D%9A%E6%9C%89%E4%BD%95%E5%8C%BA%E5%88%AB%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E5%92%8C%E4%BC%A0%E7%BB%9F%E9%87%91%E8%9E%8D%E7%9A%84%E6%AF%94%E8%BE%83-171ea51483288007888ec742b4071076/"></a>
 </article>
@@ -238,35 +230,65 @@
 
 
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
 
 
 <script>
     let menu = document.getElementById('menu')
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        const desktopMenuQuery = window.matchMedia('(min-width: 901px)');
+        if (desktopMenuQuery.matches) {
+            menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        } else {
+            menu.scrollLeft = 0;
+        }
+
         menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+            if (desktopMenuQuery.matches) {
+                localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+            }
         }
     }
 
     const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenuQuery = window.matchMedia('(max-width: 900px)');
+
+    const closeMobileMenu = () => {
+        if (!menu || !menuToggle) return;
+        menu.classList.remove('open');
+        menuToggle.setAttribute('aria-expanded', 'false');
+    };
+
+    const syncMenuState = () => {
+        if (!menu || !menuToggle) return;
+        if (mobileMenuQuery.matches) {
+            closeMobileMenu();
+        } else {
+            menu.classList.remove('open');
+            menuToggle.setAttribute('aria-expanded', 'false');
+        }
+    };
+
     if (menu && menuToggle) {
+        syncMenuState();
+
         menuToggle.addEventListener('click', () => {
             const isOpen = menu.classList.toggle('open');
             menuToggle.setAttribute('aria-expanded', String(isOpen));
+            if (mobileMenuQuery.matches) {
+                menu.scrollLeft = 0;
+            }
         });
+
         menu.querySelectorAll('a').forEach((link) => {
             link.addEventListener('click', () => {
-                if (menu.classList.contains('open')) {
-                    menu.classList.remove('open');
-                    menuToggle.setAttribute('aria-expanded', 'false');
-                }
+                closeMobileMenu();
             });
+        });
+
+        let resizeTimer = null;
+        window.addEventListener('resize', () => {
+            if (resizeTimer) clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(syncMenuState, 100);
         });
     }
 
@@ -288,19 +310,6 @@
             }
         });
     });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
 
 </script>
 <script>

@@ -81,9 +81,22 @@
       </h2>
     </header>
     {{- if (and (ne (.Param "hideSummary") true) (ne .Kind "section")) }}
-    <div class="entry-content">
-      <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-    </div>
+    {{- $summary := "" -}}
+    {{- with .Params.description }}{{- $summary = . | plainify -}}{{- end -}}
+    {{- if eq $summary "" -}}
+      {{- with .Summary }}{{- $summary = . | plainify -}}{{- end -}}
+    {{- end -}}
+    {{- if eq $summary "" -}}
+      {{- with .Plain }}{{- $summary = . -}}{{- end -}}
+    {{- end -}}
+    {{- $summary = replaceRE "\\s+" " " $summary -}}
+    {{- $summary = replaceRE "^\\s+|\\s+$" "" $summary -}}
+    {{- if gt (len $summary) 220 -}}
+      {{- $summary = substr $summary 0 220 -}}
+    {{- end -}}
+    {{- if ne $summary "" }}
+    <div class="entry-content">{{ $summary }}</div>
+    {{- end }}
     {{- end }}
     {{- if (and (not (.Param "hideMeta")) (ne .Kind "section")) }}
     <footer class="entry-footer">

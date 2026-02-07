@@ -3,7 +3,7 @@
 {{- /* Can be overwritten by partial with the same name in the global layouts. */ -}}
 {{- /* Head custom content area end */ -}}
 
-{{- $preconnect := slice "https://fonts.cdnfonts.com" "https://fonts.googleapis.com" "https://fonts.gstatic.com" -}}
+{{- $preconnect := slice "https://fonts.googleapis.com" "https://fonts.gstatic.com" -}}
 {{- with site.Config.Services.GoogleAnalytics.ID -}}
     {{- $preconnect = $preconnect | append "https://www.googletagmanager.com" "https://www.google-analytics.com" -}}
 {{- end -}}
@@ -11,5 +11,4 @@
 <link rel="preconnect" href="{{ . }}" crossorigin>
 {{- end }}
 
-<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/code-new-roman">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap">

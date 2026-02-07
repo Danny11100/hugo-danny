@@ -1,4 +1,4 @@
 ---
-title: "🧩 Tags"
+title: "Tags"
 
 ---

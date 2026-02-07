@@ -28,8 +28,21 @@
                 href="http://localhost:1313/zh/posts/tech/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh/posts/observation/</loc>
+    <lastmod>2026-02-06T15:33:56+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/observation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/observation/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh/categories/</loc>
-    <lastmod>2026-02-05T01:28:32+08:00</lastmod>
+    <lastmod>2026-02-06T15:33:56+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -39,6 +52,45 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://localhost:1313/zh/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/categories/observation/</loc>
+    <lastmod>2026-02-06T15:33:56+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/observation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/categories/observation/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/</loc>
+    <lastmod>2026-02-06T15:33:56+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/posts/observation/howmuch.tax/</loc>
+    <lastmod>2026-02-06T15:33:56+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/observation/howmuch.tax/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/observation/howmuch.tax/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh/tags/cloudflare/</loc>
@@ -104,19 +156,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://localhost:1313/zh/tags/wechat/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh/</loc>
-    <lastmod>2026-02-05T01:28:32+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/zh/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh/posts/tech/hugo-refresh-notion-style/</loc>
@@ -443,17 +482,17 @@
                 href="http://localhost:1313/zh/resume/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/posts/</loc>
-    <lastmod>2024-12-30T15:30:16+08:00</lastmod>
+    <loc>http://localhost:1313/zh/projects/</loc>
+    <lastmod>2024-12-29T23:11:35+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/"
+                href="http://localhost:1313/en/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/posts/"
+                href="http://localhost:1313/zh/projects/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh/tags/</loc>
@@ -467,19 +506,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://localhost:1313/zh/tags/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh/projects/</loc>
-    <lastmod>2024-12-29T23:11:35+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/zh/projects/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh/archives/</loc>
@@ -506,6 +532,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://localhost:1313/zh/search/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/posts/</loc>
+    <lastmod>2024-12-30T15:30:16+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/posts/"
                 />
   </url>
 </urlset>

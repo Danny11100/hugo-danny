@@ -1,6 +1,8 @@
 {{- define "main" }}
 
-<article class="post-single">
+{{- $tocPartial := trim (partial "toc.html" .) " \n\r\t" -}}
+{{- $showToc := and (.Param "ShowToc") (ne $tocPartial "") -}}
+<article class="post-single{{ if $showToc }} has-toc{{ end }}">
   <header class="post-header">
     <!-- 面包屑导航 -->
     {{ partial "breadcrumbs.html" . }}
@@ -51,9 +53,9 @@
   {{- partial "cover1.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
 
   <!-- 目录 -->
-  {{- if (.Param "ShowToc") }}
+  {{- if $showToc }}
   <div class="post-toc">
-    {{- partial "toc.html" . }}
+    {{- $tocPartial | safeHTML }}
   </div>
   {{- end }}
 

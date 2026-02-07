@@ -27,7 +27,7 @@
 </footer>
 {{- end }}
 
-{{- if (not site.Params.disableScrollToTop) }}
+{{- if (not (.Param "disableScrollToTop")) }}
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
@@ -39,25 +39,60 @@
 <script>
     let menu = document.getElementById('menu')
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        const desktopMenuQuery = window.matchMedia('(min-width: 901px)');
+        if (desktopMenuQuery.matches) {
+            menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        } else {
+            menu.scrollLeft = 0;
+        }
+
         menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+            if (desktopMenuQuery.matches) {
+                localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+            }
         }
     }
 
     const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenuQuery = window.matchMedia('(max-width: 900px)');
+
+    const closeMobileMenu = () => {
+        if (!menu || !menuToggle) return;
+        menu.classList.remove('open');
+        menuToggle.setAttribute('aria-expanded', 'false');
+    };
+
+    const syncMenuState = () => {
+        if (!menu || !menuToggle) return;
+        if (mobileMenuQuery.matches) {
+            closeMobileMenu();
+        } else {
+            menu.classList.remove('open');
+            menuToggle.setAttribute('aria-expanded', 'false');
+        }
+    };
+
     if (menu && menuToggle) {
+        syncMenuState();
+
         menuToggle.addEventListener('click', () => {
             const isOpen = menu.classList.toggle('open');
             menuToggle.setAttribute('aria-expanded', String(isOpen));
+            if (mobileMenuQuery.matches) {
+                menu.scrollLeft = 0;
+            }
         });
+
         menu.querySelectorAll('a').forEach((link) => {
             link.addEventListener('click', () => {
-                if (menu.classList.contains('open')) {
-                    menu.classList.remove('open');
-                    menuToggle.setAttribute('aria-expanded', 'false');
-                }
+                closeMobileMenu();
             });
+        });
+
+        let resizeTimer = null;
+        window.addEventListener('resize', () => {
+            if (resizeTimer) clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(syncMenuState, 100);
         });
     }
 
@@ -82,7 +117,7 @@
 
 </script>
 
-{{- if (not site.Params.disableScrollToTop) }}
+{{- if (not (.Param "disableScrollToTop")) }}
 <script>
     var mybutton = document.getElementById("top-link");
     window.onscroll = function () {

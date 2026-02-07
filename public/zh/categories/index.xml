@@ -13,8 +13,15 @@
     <language>zh</language>
     <managingEditor>contact@yfreetime.com (Danny Yuan)</managingEditor>
     <webMaster>contact@yfreetime.com (Danny Yuan)</webMaster>
-    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/zh/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Observation</title>
+      <link>http://localhost:1313/zh/categories/observation/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><author>contact@yfreetime.com (Danny Yuan)</author>
+      <guid>http://localhost:1313/zh/categories/observation/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Tech</title>
       <link>http://localhost:1313/zh/categories/tech/</link>
