@@ -376,8 +376,26 @@ code {
     line-height: 1.28;
     letter-spacing: -0.01em;
     text-wrap: pretty;
-    overflow-wrap: anywhere;
+    overflow-wrap: break-word;
     word-break: normal;
+}
+
+.entry-header .entry-hint-parent,
+.archive-entry-title.entry-hint-parent {
+    display: block;
+    justify-content: normal;
+}
+
+.post-title.entry-hint-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.4rem;
+}
+
+.post-title.entry-hint-parent .entry-hint {
+    flex: 0 0 auto;
+    margin-top: 0.1em;
 }
 
 .entry-content {
@@ -547,6 +565,11 @@ html[lang="zh"] .entry-header h2,
 html[lang="zh"] .home-info .entry-header h1,
 html[lang="zh"] .first-entry .entry-header h1 {
     word-break: keep-all;
+}
+
+html[lang="en"] .entry-header h2,
+html[lang="en"] .post-title {
+    hyphens: auto;
 }
 
 .post-divider {
