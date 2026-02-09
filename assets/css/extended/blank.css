@@ -702,6 +702,36 @@ html[lang="en"] .post-title {
     background: transparent;
 }
 
+.post-footer {
+    margin-top: 64px;
+}
+
+.post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.post-tags li {
+    margin: 0;
+}
+
+.post-tags a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 38px;
+    padding: 8px 16px;
+    margin: 0;
+    line-height: 1.2;
+    font-size: 0.98rem;
+    border-radius: 999px;
+    white-space: nowrap;
+}
+
 .post-toc {
     display: block;
     margin: 0 0 1.6rem;
@@ -1045,6 +1075,37 @@ body.dark .post-content a {
     .post-content blockquote,
     .post-content figure {
         margin-bottom: 1.12em;
+    }
+
+    .post-footer {
+        margin-top: 42px;
+        padding-bottom: max(14px, env(safe-area-inset-bottom));
+    }
+
+    .post-tags {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 10px 8px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .post-tags li {
+        margin: 0;
+    }
+
+    .post-tags a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 36px;
+        padding: 8px 14px;
+        margin: 0;
+        line-height: 1.2;
+        font-size: 0.98rem;
+        border-radius: 999px;
+        white-space: nowrap;
     }
 }
 

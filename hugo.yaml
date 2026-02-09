@@ -50,7 +50,7 @@ languages:
       ShowLastMod: true
       homeInfoParams:
         enabled: true
-        Title: "Stay Hungry, Stay Foolish"
+        Title: "Be Water, My Friend"
         Content: ""
         buttons:
         - name: About
@@ -111,7 +111,7 @@ languages:
         text: "happy space"
       homeInfoParams:
         enabled: true
-        Title: "Stay Hungry, Stay Foolish"
+        Title: "Be Water, My Friend"
         Content: ""
         subtitle: "Danny Yuan"
         imageUrl: img/dannylogo.png
