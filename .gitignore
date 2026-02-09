@@ -4,6 +4,6 @@ resources/
 .DS_Store
 __pycache__/
 *.pyc
-incoming/
+/incoming/
 !incoming/.gitkeep
 notion_export/inbox/
